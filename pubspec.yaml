@@ -14,8 +14,6 @@ dependencies:
 
 flutter:
   fonts:
-    - family: tabler-icons
+    - family: TablerIcons
       fonts:
         - asset: assets/fonts/tabler-icons.ttf
-          style: normal
-          weight: 400

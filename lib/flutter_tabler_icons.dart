@@ -8,7 +8,8 @@ class _TablerIconsData extends IconData {
   const _TablerIconsData(int codePoint, this.name)
       : super(
           codePoint,
-          fontFamily: 'TablerIcons',
+          fontFamily: 'tabler-icons',
+          fontPackage: 'flutter_tabler_icons',
         );
 
   final String name;
