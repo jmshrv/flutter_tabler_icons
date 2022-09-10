@@ -18,10 +18,11 @@ class _TablerIconsData extends IconData {
 class TablerIcons {
   const TablerIcons._();
 
-  static const 2fa = _TablerIconsData(0xf101, '2fa');
-  static const 3d_cube_sphere_off = _TablerIconsData(0xf102, '3d_cube_sphere_off');
-  static const 3d_cube_sphere = _TablerIconsData(0xf103, '3d_cube_sphere');
-  static const 3d_rotate = _TablerIconsData(0xf104, '3d_rotate');
+  static const twofa = _TablerIconsData(0xf101, '2fa');
+  static const threed_cube_sphere_off =
+      _TablerIconsData(0xf102, '3d_cube_sphere_off');
+  static const threed_cube_sphere = _TablerIconsData(0xf103, '3d_cube_sphere');
+  static const threed_rotate = _TablerIconsData(0xf104, '3d_rotate');
   static const a_b_2 = _TablerIconsData(0xf105, 'a_b_2');
   static const a_b_off = _TablerIconsData(0xf106, 'a_b_off');
   static const a_b = _TablerIconsData(0xf107, 'a_b');
@@ -31,7 +32,8 @@ class TablerIcons {
   static const access_point = _TablerIconsData(0xf10b, 'access_point');
   static const accessible_off = _TablerIconsData(0xf10c, 'accessible_off');
   static const accessible = _TablerIconsData(0xf10d, 'accessible');
-  static const activity_heartbeat = _TablerIconsData(0xf10e, 'activity_heartbeat');
+  static const activity_heartbeat =
+      _TablerIconsData(0xf10e, 'activity_heartbeat');
   static const activity = _TablerIconsData(0xf10f, 'activity');
   static const ad_2 = _TablerIconsData(0xf110, 'ad_2');
   static const ad_off = _TablerIconsData(0xf111, 'ad_off');
@@ -39,7 +41,8 @@ class TablerIcons {
   static const address_book_off = _TablerIconsData(0xf113, 'address_book_off');
   static const address_book = _TablerIconsData(0xf114, 'address_book');
   static const adjustments_alt = _TablerIconsData(0xf115, 'adjustments_alt');
-  static const adjustments_horizontal = _TablerIconsData(0xf116, 'adjustments_horizontal');
+  static const adjustments_horizontal =
+      _TablerIconsData(0xf116, 'adjustments_horizontal');
   static const adjustments_off = _TablerIconsData(0xf117, 'adjustments_off');
   static const adjustments = _TablerIconsData(0xf118, 'adjustments');
   static const aerial_lift = _TablerIconsData(0xf119, 'aerial_lift');
@@ -57,7 +60,8 @@ class TablerIcons {
   static const align_justified = _TablerIconsData(0xf125, 'align_justified');
   static const align_left = _TablerIconsData(0xf126, 'align_left');
   static const align_right = _TablerIconsData(0xf127, 'align_right');
-  static const alphabet_cyrillic = _TablerIconsData(0xf128, 'alphabet_cyrillic');
+  static const alphabet_cyrillic =
+      _TablerIconsData(0xf128, 'alphabet_cyrillic');
   static const alphabet_greek = _TablerIconsData(0xf129, 'alphabet_greek');
   static const alphabet_latin = _TablerIconsData(0xf12a, 'alphabet_latin');
   static const ambulance = _TablerIconsData(0xf12b, 'ambulance');
@@ -92,50 +96,76 @@ class TablerIcons {
   static const armchair_2 = _TablerIconsData(0xf148, 'armchair_2');
   static const armchair_off = _TablerIconsData(0xf149, 'armchair_off');
   static const armchair = _TablerIconsData(0xf14a, 'armchair');
-  static const arrow_autofit_content = _TablerIconsData(0xf14b, 'arrow_autofit_content');
-  static const arrow_autofit_down = _TablerIconsData(0xf14c, 'arrow_autofit_down');
-  static const arrow_autofit_height = _TablerIconsData(0xf14d, 'arrow_autofit_height');
-  static const arrow_autofit_left = _TablerIconsData(0xf14e, 'arrow_autofit_left');
-  static const arrow_autofit_right = _TablerIconsData(0xf14f, 'arrow_autofit_right');
+  static const arrow_autofit_content =
+      _TablerIconsData(0xf14b, 'arrow_autofit_content');
+  static const arrow_autofit_down =
+      _TablerIconsData(0xf14c, 'arrow_autofit_down');
+  static const arrow_autofit_height =
+      _TablerIconsData(0xf14d, 'arrow_autofit_height');
+  static const arrow_autofit_left =
+      _TablerIconsData(0xf14e, 'arrow_autofit_left');
+  static const arrow_autofit_right =
+      _TablerIconsData(0xf14f, 'arrow_autofit_right');
   static const arrow_autofit_up = _TablerIconsData(0xf150, 'arrow_autofit_up');
-  static const arrow_autofit_width = _TablerIconsData(0xf151, 'arrow_autofit_width');
+  static const arrow_autofit_width =
+      _TablerIconsData(0xf151, 'arrow_autofit_width');
   static const arrow_back_up = _TablerIconsData(0xf152, 'arrow_back_up');
   static const arrow_back = _TablerIconsData(0xf153, 'arrow_back');
   static const arrow_bar_down = _TablerIconsData(0xf154, 'arrow_bar_down');
   static const arrow_bar_left = _TablerIconsData(0xf155, 'arrow_bar_left');
   static const arrow_bar_right = _TablerIconsData(0xf156, 'arrow_bar_right');
-  static const arrow_bar_to_down = _TablerIconsData(0xf157, 'arrow_bar_to_down');
-  static const arrow_bar_to_left = _TablerIconsData(0xf158, 'arrow_bar_to_left');
-  static const arrow_bar_to_right = _TablerIconsData(0xf159, 'arrow_bar_to_right');
+  static const arrow_bar_to_down =
+      _TablerIconsData(0xf157, 'arrow_bar_to_down');
+  static const arrow_bar_to_left =
+      _TablerIconsData(0xf158, 'arrow_bar_to_left');
+  static const arrow_bar_to_right =
+      _TablerIconsData(0xf159, 'arrow_bar_to_right');
   static const arrow_bar_to_up = _TablerIconsData(0xf15a, 'arrow_bar_to_up');
   static const arrow_bar_up = _TablerIconsData(0xf15b, 'arrow_bar_up');
-  static const arrow_bear_left_2 = _TablerIconsData(0xf15c, 'arrow_bear_left_2');
+  static const arrow_bear_left_2 =
+      _TablerIconsData(0xf15c, 'arrow_bear_left_2');
   static const arrow_bear_left = _TablerIconsData(0xf15d, 'arrow_bear_left');
-  static const arrow_bear_right_2 = _TablerIconsData(0xf15e, 'arrow_bear_right_2');
+  static const arrow_bear_right_2 =
+      _TablerIconsData(0xf15e, 'arrow_bear_right_2');
   static const arrow_bear_right = _TablerIconsData(0xf15f, 'arrow_bear_right');
-  static const arrow_big_down_line = _TablerIconsData(0xf160, 'arrow_big_down_line');
-  static const arrow_big_down_lines = _TablerIconsData(0xf161, 'arrow_big_down_lines');
+  static const arrow_big_down_line =
+      _TablerIconsData(0xf160, 'arrow_big_down_line');
+  static const arrow_big_down_lines =
+      _TablerIconsData(0xf161, 'arrow_big_down_lines');
   static const arrow_big_down = _TablerIconsData(0xf162, 'arrow_big_down');
-  static const arrow_big_left_line = _TablerIconsData(0xf163, 'arrow_big_left_line');
-  static const arrow_big_left_lines = _TablerIconsData(0xf164, 'arrow_big_left_lines');
+  static const arrow_big_left_line =
+      _TablerIconsData(0xf163, 'arrow_big_left_line');
+  static const arrow_big_left_lines =
+      _TablerIconsData(0xf164, 'arrow_big_left_lines');
   static const arrow_big_left = _TablerIconsData(0xf165, 'arrow_big_left');
-  static const arrow_big_right_line = _TablerIconsData(0xf166, 'arrow_big_right_line');
-  static const arrow_big_right_lines = _TablerIconsData(0xf167, 'arrow_big_right_lines');
+  static const arrow_big_right_line =
+      _TablerIconsData(0xf166, 'arrow_big_right_line');
+  static const arrow_big_right_lines =
+      _TablerIconsData(0xf167, 'arrow_big_right_lines');
   static const arrow_big_right = _TablerIconsData(0xf168, 'arrow_big_right');
   static const arrow_big_top = _TablerIconsData(0xf169, 'arrow_big_top');
-  static const arrow_big_up_line = _TablerIconsData(0xf16a, 'arrow_big_up_line');
-  static const arrow_big_up_lines = _TablerIconsData(0xf16b, 'arrow_big_up_lines');
+  static const arrow_big_up_line =
+      _TablerIconsData(0xf16a, 'arrow_big_up_line');
+  static const arrow_big_up_lines =
+      _TablerIconsData(0xf16b, 'arrow_big_up_lines');
   static const arrow_bottom_bar = _TablerIconsData(0xf16c, 'arrow_bottom_bar');
-  static const arrow_bottom_circle = _TablerIconsData(0xf16d, 'arrow_bottom_circle');
-  static const arrow_bottom_square = _TablerIconsData(0xf16e, 'arrow_bottom_square');
-  static const arrow_bottom_tail = _TablerIconsData(0xf16f, 'arrow_bottom_tail');
+  static const arrow_bottom_circle =
+      _TablerIconsData(0xf16d, 'arrow_bottom_circle');
+  static const arrow_bottom_square =
+      _TablerIconsData(0xf16e, 'arrow_bottom_square');
+  static const arrow_bottom_tail =
+      _TablerIconsData(0xf16f, 'arrow_bottom_tail');
   static const arrow_bounce = _TablerIconsData(0xf170, 'arrow_bounce');
   static const arrow_curve_left = _TablerIconsData(0xf171, 'arrow_curve_left');
-  static const arrow_curve_right = _TablerIconsData(0xf172, 'arrow_curve_right');
-  static const arrow_down_circle = _TablerIconsData(0xf173, 'arrow_down_circle');
-  static const arrow_down_left_circle = _TablerIconsData(0xf174, 'arrow_down_left_circle');
+  static const arrow_curve_right =
+      _TablerIconsData(0xf172, 'arrow_curve_right');
+  static const arrow_down_circle =
+      _TablerIconsData(0xf173, 'arrow_down_circle');
+  static const arrow_down_left_circle =
+      _TablerIconsData(0xf174, 'arrow_down_left_circle');
   static const arrow_down_left = _TablerIconsData(0xf175, 'arrow_down_left');
-  static const arrow_down_right_circle = _TablerIconsData(0xf176, 'arrow_down_right_circle');
+  static const arrow_down_right_circle =
+      _TablerIconsData(0xf176, 'arrow_down_right_circle');
   static const arrow_down_right = _TablerIconsData(0xf177, 'arrow_down_right');
   static const arrow_down = _TablerIconsData(0xf178, 'arrow_down');
   static const arrow_fork = _TablerIconsData(0xf179, 'arrow_fork');
@@ -143,99 +173,146 @@ class TablerIcons {
   static const arrow_forward = _TablerIconsData(0xf17b, 'arrow_forward');
   static const arrow_guide = _TablerIconsData(0xf17c, 'arrow_guide');
   static const arrow_left_bar = _TablerIconsData(0xf17d, 'arrow_left_bar');
-  static const arrow_left_circle = _TablerIconsData(0xf17e, 'arrow_left_circle');
+  static const arrow_left_circle =
+      _TablerIconsData(0xf17e, 'arrow_left_circle');
   static const arrow_left_right = _TablerIconsData(0xf17f, 'arrow_left_right');
-  static const arrow_left_square = _TablerIconsData(0xf180, 'arrow_left_square');
+  static const arrow_left_square =
+      _TablerIconsData(0xf180, 'arrow_left_square');
   static const arrow_left_tail = _TablerIconsData(0xf181, 'arrow_left_tail');
   static const arrow_left = _TablerIconsData(0xf182, 'arrow_left');
-  static const arrow_loop_left_2 = _TablerIconsData(0xf183, 'arrow_loop_left_2');
+  static const arrow_loop_left_2 =
+      _TablerIconsData(0xf183, 'arrow_loop_left_2');
   static const arrow_loop_left = _TablerIconsData(0xf184, 'arrow_loop_left');
-  static const arrow_loop_right_2 = _TablerIconsData(0xf185, 'arrow_loop_right_2');
+  static const arrow_loop_right_2 =
+      _TablerIconsData(0xf185, 'arrow_loop_right_2');
   static const arrow_loop_right = _TablerIconsData(0xf186, 'arrow_loop_right');
   static const arrow_merge_both = _TablerIconsData(0xf187, 'arrow_merge_both');
   static const arrow_merge_left = _TablerIconsData(0xf188, 'arrow_merge_left');
-  static const arrow_merge_right = _TablerIconsData(0xf189, 'arrow_merge_right');
+  static const arrow_merge_right =
+      _TablerIconsData(0xf189, 'arrow_merge_right');
   static const arrow_merge = _TablerIconsData(0xf18a, 'arrow_merge');
   static const arrow_move_down = _TablerIconsData(0xf18b, 'arrow_move_down');
   static const arrow_move_left = _TablerIconsData(0xf18c, 'arrow_move_left');
   static const arrow_move_right = _TablerIconsData(0xf18d, 'arrow_move_right');
   static const arrow_move_up = _TablerIconsData(0xf18e, 'arrow_move_up');
-  static const arrow_narrow_down = _TablerIconsData(0xf18f, 'arrow_narrow_down');
-  static const arrow_narrow_left = _TablerIconsData(0xf190, 'arrow_narrow_left');
-  static const arrow_narrow_right = _TablerIconsData(0xf191, 'arrow_narrow_right');
+  static const arrow_narrow_down =
+      _TablerIconsData(0xf18f, 'arrow_narrow_down');
+  static const arrow_narrow_left =
+      _TablerIconsData(0xf190, 'arrow_narrow_left');
+  static const arrow_narrow_right =
+      _TablerIconsData(0xf191, 'arrow_narrow_right');
   static const arrow_narrow_up = _TablerIconsData(0xf192, 'arrow_narrow_up');
-  static const arrow_ramp_left_2 = _TablerIconsData(0xf193, 'arrow_ramp_left_2');
-  static const arrow_ramp_left_3 = _TablerIconsData(0xf194, 'arrow_ramp_left_3');
+  static const arrow_ramp_left_2 =
+      _TablerIconsData(0xf193, 'arrow_ramp_left_2');
+  static const arrow_ramp_left_3 =
+      _TablerIconsData(0xf194, 'arrow_ramp_left_3');
   static const arrow_ramp_left = _TablerIconsData(0xf195, 'arrow_ramp_left');
-  static const arrow_ramp_right_2 = _TablerIconsData(0xf196, 'arrow_ramp_right_2');
-  static const arrow_ramp_right_3 = _TablerIconsData(0xf197, 'arrow_ramp_right_3');
+  static const arrow_ramp_right_2 =
+      _TablerIconsData(0xf196, 'arrow_ramp_right_2');
+  static const arrow_ramp_right_3 =
+      _TablerIconsData(0xf197, 'arrow_ramp_right_3');
   static const arrow_ramp_right = _TablerIconsData(0xf198, 'arrow_ramp_right');
   static const arrow_right_bar = _TablerIconsData(0xf199, 'arrow_right_bar');
-  static const arrow_right_circle = _TablerIconsData(0xf19a, 'arrow_right_circle');
-  static const arrow_right_square = _TablerIconsData(0xf19b, 'arrow_right_square');
+  static const arrow_right_circle =
+      _TablerIconsData(0xf19a, 'arrow_right_circle');
+  static const arrow_right_square =
+      _TablerIconsData(0xf19b, 'arrow_right_square');
   static const arrow_right_tail = _TablerIconsData(0xf19c, 'arrow_right_tail');
   static const arrow_right = _TablerIconsData(0xf19d, 'arrow_right');
-  static const arrow_rotary_first_left = _TablerIconsData(0xf19e, 'arrow_rotary_first_left');
-  static const arrow_rotary_first_right = _TablerIconsData(0xf19f, 'arrow_rotary_first_right');
-  static const arrow_rotary_last_left = _TablerIconsData(0xf1a0, 'arrow_rotary_last_left');
-  static const arrow_rotary_last_right = _TablerIconsData(0xf1a1, 'arrow_rotary_last_right');
-  static const arrow_rotary_left = _TablerIconsData(0xf1a2, 'arrow_rotary_left');
-  static const arrow_rotary_right = _TablerIconsData(0xf1a3, 'arrow_rotary_right');
-  static const arrow_rotary_straight = _TablerIconsData(0xf1a4, 'arrow_rotary_straight');
-  static const arrow_roundabout_left = _TablerIconsData(0xf1a5, 'arrow_roundabout_left');
-  static const arrow_roundabout_right = _TablerIconsData(0xf1a6, 'arrow_roundabout_right');
-  static const arrow_sharp_turn_left = _TablerIconsData(0xf1a7, 'arrow_sharp_turn_left');
-  static const arrow_sharp_turn_right = _TablerIconsData(0xf1a8, 'arrow_sharp_turn_right');
+  static const arrow_rotary_first_left =
+      _TablerIconsData(0xf19e, 'arrow_rotary_first_left');
+  static const arrow_rotary_first_right =
+      _TablerIconsData(0xf19f, 'arrow_rotary_first_right');
+  static const arrow_rotary_last_left =
+      _TablerIconsData(0xf1a0, 'arrow_rotary_last_left');
+  static const arrow_rotary_last_right =
+      _TablerIconsData(0xf1a1, 'arrow_rotary_last_right');
+  static const arrow_rotary_left =
+      _TablerIconsData(0xf1a2, 'arrow_rotary_left');
+  static const arrow_rotary_right =
+      _TablerIconsData(0xf1a3, 'arrow_rotary_right');
+  static const arrow_rotary_straight =
+      _TablerIconsData(0xf1a4, 'arrow_rotary_straight');
+  static const arrow_roundabout_left =
+      _TablerIconsData(0xf1a5, 'arrow_roundabout_left');
+  static const arrow_roundabout_right =
+      _TablerIconsData(0xf1a6, 'arrow_roundabout_right');
+  static const arrow_sharp_turn_left =
+      _TablerIconsData(0xf1a7, 'arrow_sharp_turn_left');
+  static const arrow_sharp_turn_right =
+      _TablerIconsData(0xf1a8, 'arrow_sharp_turn_right');
   static const arrow_top_bar = _TablerIconsData(0xf1a9, 'arrow_top_bar');
   static const arrow_top_circle = _TablerIconsData(0xf1aa, 'arrow_top_circle');
   static const arrow_top_square = _TablerIconsData(0xf1ab, 'arrow_top_square');
   static const arrow_top_tail = _TablerIconsData(0xf1ac, 'arrow_top_tail');
   static const arrow_up_circle = _TablerIconsData(0xf1ad, 'arrow_up_circle');
-  static const arrow_up_left_circle = _TablerIconsData(0xf1ae, 'arrow_up_left_circle');
+  static const arrow_up_left_circle =
+      _TablerIconsData(0xf1ae, 'arrow_up_left_circle');
   static const arrow_up_left = _TablerIconsData(0xf1af, 'arrow_up_left');
-  static const arrow_up_right_circle = _TablerIconsData(0xf1b0, 'arrow_up_right_circle');
+  static const arrow_up_right_circle =
+      _TablerIconsData(0xf1b0, 'arrow_up_right_circle');
   static const arrow_up_right = _TablerIconsData(0xf1b1, 'arrow_up_right');
   static const arrow_up = _TablerIconsData(0xf1b2, 'arrow_up');
-  static const arrow_wave_left_down = _TablerIconsData(0xf1b3, 'arrow_wave_left_down');
-  static const arrow_wave_left_up = _TablerIconsData(0xf1b4, 'arrow_wave_left_up');
-  static const arrow_wave_right_down = _TablerIconsData(0xf1b5, 'arrow_wave_right_down');
-  static const arrow_wave_right_up = _TablerIconsData(0xf1b6, 'arrow_wave_right_up');
+  static const arrow_wave_left_down =
+      _TablerIconsData(0xf1b3, 'arrow_wave_left_down');
+  static const arrow_wave_left_up =
+      _TablerIconsData(0xf1b4, 'arrow_wave_left_up');
+  static const arrow_wave_right_down =
+      _TablerIconsData(0xf1b5, 'arrow_wave_right_down');
+  static const arrow_wave_right_up =
+      _TablerIconsData(0xf1b6, 'arrow_wave_right_up');
   static const arrows_cross = _TablerIconsData(0xf1b7, 'arrows_cross');
-  static const arrows_diagonal_2 = _TablerIconsData(0xf1b8, 'arrows_diagonal_2');
-  static const arrows_diagonal_minimize_2 = _TablerIconsData(0xf1b9, 'arrows_diagonal_minimize_2');
-  static const arrows_diagonal_minimize = _TablerIconsData(0xf1ba, 'arrows_diagonal_minimize');
+  static const arrows_diagonal_2 =
+      _TablerIconsData(0xf1b8, 'arrows_diagonal_2');
+  static const arrows_diagonal_minimize_2 =
+      _TablerIconsData(0xf1b9, 'arrows_diagonal_minimize_2');
+  static const arrows_diagonal_minimize =
+      _TablerIconsData(0xf1ba, 'arrows_diagonal_minimize');
   static const arrows_diagonal = _TablerIconsData(0xf1bb, 'arrows_diagonal');
   static const arrows_diff = _TablerIconsData(0xf1bc, 'arrows_diff');
-  static const arrows_double_ne_sw = _TablerIconsData(0xf1bd, 'arrows_double_ne_sw');
-  static const arrows_double_nw_se = _TablerIconsData(0xf1be, 'arrows_double_nw_se');
-  static const arrows_double_se_nw = _TablerIconsData(0xf1bf, 'arrows_double_se_nw');
-  static const arrows_double_sw_ne = _TablerIconsData(0xf1c0, 'arrows_double_sw_ne');
+  static const arrows_double_ne_sw =
+      _TablerIconsData(0xf1bd, 'arrows_double_ne_sw');
+  static const arrows_double_nw_se =
+      _TablerIconsData(0xf1be, 'arrows_double_nw_se');
+  static const arrows_double_se_nw =
+      _TablerIconsData(0xf1bf, 'arrows_double_se_nw');
+  static const arrows_double_sw_ne =
+      _TablerIconsData(0xf1c0, 'arrows_double_sw_ne');
   static const arrows_down_up = _TablerIconsData(0xf1c1, 'arrows_down_up');
   static const arrows_down = _TablerIconsData(0xf1c2, 'arrows_down');
-  static const arrows_exchange_2 = _TablerIconsData(0xf1c3, 'arrows_exchange_2');
+  static const arrows_exchange_2 =
+      _TablerIconsData(0xf1c3, 'arrows_exchange_2');
   static const arrows_exchange = _TablerIconsData(0xf1c4, 'arrows_exchange');
-  static const arrows_horizontal = _TablerIconsData(0xf1c5, 'arrows_horizontal');
+  static const arrows_horizontal =
+      _TablerIconsData(0xf1c5, 'arrows_horizontal');
   static const arrows_join_2 = _TablerIconsData(0xf1c6, 'arrows_join_2');
   static const arrows_join = _TablerIconsData(0xf1c7, 'arrows_join');
   static const arrows_left_down = _TablerIconsData(0xf1c8, 'arrows_left_down');
-  static const arrows_left_right = _TablerIconsData(0xf1c9, 'arrows_left_right');
+  static const arrows_left_right =
+      _TablerIconsData(0xf1c9, 'arrows_left_right');
   static const arrows_left = _TablerIconsData(0xf1ca, 'arrows_left');
   static const arrows_maximize = _TablerIconsData(0xf1cb, 'arrows_maximize');
   static const arrows_minimize = _TablerIconsData(0xf1cc, 'arrows_minimize');
-  static const arrows_move_horizontal = _TablerIconsData(0xf1cd, 'arrows_move_horizontal');
-  static const arrows_move_vertical = _TablerIconsData(0xf1ce, 'arrows_move_vertical');
+  static const arrows_move_horizontal =
+      _TablerIconsData(0xf1cd, 'arrows_move_horizontal');
+  static const arrows_move_vertical =
+      _TablerIconsData(0xf1ce, 'arrows_move_vertical');
   static const arrows_move = _TablerIconsData(0xf1cf, 'arrows_move');
   static const arrows_random = _TablerIconsData(0xf1d0, 'arrows_random');
-  static const arrows_right_down = _TablerIconsData(0xf1d1, 'arrows_right_down');
-  static const arrows_right_left = _TablerIconsData(0xf1d2, 'arrows_right_left');
+  static const arrows_right_down =
+      _TablerIconsData(0xf1d1, 'arrows_right_down');
+  static const arrows_right_left =
+      _TablerIconsData(0xf1d2, 'arrows_right_left');
   static const arrows_right = _TablerIconsData(0xf1d3, 'arrows_right');
   static const arrows_shuffle_2 = _TablerIconsData(0xf1d4, 'arrows_shuffle_2');
   static const arrows_shuffle = _TablerIconsData(0xf1d5, 'arrows_shuffle');
   static const arrows_sort = _TablerIconsData(0xf1d6, 'arrows_sort');
   static const arrows_split_2 = _TablerIconsData(0xf1d7, 'arrows_split_2');
   static const arrows_split = _TablerIconsData(0xf1d8, 'arrows_split');
-  static const arrows_transfer_down = _TablerIconsData(0xf1d9, 'arrows_transfer_down');
-  static const arrows_transfer_up = _TablerIconsData(0xf1da, 'arrows_transfer_up');
+  static const arrows_transfer_down =
+      _TablerIconsData(0xf1d9, 'arrows_transfer_down');
+  static const arrows_transfer_up =
+      _TablerIconsData(0xf1da, 'arrows_transfer_up');
   static const arrows_up_down = _TablerIconsData(0xf1db, 'arrows_up_down');
   static const arrows_up_left = _TablerIconsData(0xf1dc, 'arrows_up_left');
   static const arrows_up_right = _TablerIconsData(0xf1dd, 'arrows_up_right');
@@ -257,9 +334,12 @@ class TablerIcons {
   static const atom_2 = _TablerIconsData(0xf1ed, 'atom_2');
   static const atom_off = _TablerIconsData(0xf1ee, 'atom_off');
   static const atom = _TablerIconsData(0xf1ef, 'atom');
-  static const augmented_reality_2 = _TablerIconsData(0xf1f0, 'augmented_reality_2');
-  static const augmented_reality_off = _TablerIconsData(0xf1f1, 'augmented_reality_off');
-  static const augmented_reality = _TablerIconsData(0xf1f2, 'augmented_reality');
+  static const augmented_reality_2 =
+      _TablerIconsData(0xf1f0, 'augmented_reality_2');
+  static const augmented_reality_off =
+      _TablerIconsData(0xf1f1, 'augmented_reality_off');
+  static const augmented_reality =
+      _TablerIconsData(0xf1f2, 'augmented_reality');
   static const award_off = _TablerIconsData(0xf1f3, 'award_off');
   static const award = _TablerIconsData(0xf1f4, 'award');
   static const axe = _TablerIconsData(0xf1f5, 'axe');
@@ -275,12 +355,15 @@ class TablerIcons {
   static const badges_off = _TablerIconsData(0xf1ff, 'badges_off');
   static const badges = _TablerIconsData(0xf200, 'badges');
   static const baguette = _TablerIconsData(0xf201, 'baguette');
-  static const ball_american_football_off = _TablerIconsData(0xf202, 'ball_american_football_off');
-  static const ball_american_football = _TablerIconsData(0xf203, 'ball_american_football');
+  static const ball_american_football_off =
+      _TablerIconsData(0xf202, 'ball_american_football_off');
+  static const ball_american_football =
+      _TablerIconsData(0xf203, 'ball_american_football');
   static const ball_baseball = _TablerIconsData(0xf204, 'ball_baseball');
   static const ball_basketball = _TablerIconsData(0xf205, 'ball_basketball');
   static const ball_bowling = _TablerIconsData(0xf206, 'ball_bowling');
-  static const ball_football_off = _TablerIconsData(0xf207, 'ball_football_off');
+  static const ball_football_off =
+      _TablerIconsData(0xf207, 'ball_football_off');
   static const ball_football = _TablerIconsData(0xf208, 'ball_football');
   static const ball_tennis = _TablerIconsData(0xf209, 'ball_tennis');
   static const ball_volleyball = _TablerIconsData(0xf20a, 'ball_volleyball');
@@ -297,7 +380,8 @@ class TablerIcons {
   static const barcode = _TablerIconsData(0xf215, 'barcode');
   static const barrel_off = _TablerIconsData(0xf216, 'barrel_off');
   static const barrel = _TablerIconsData(0xf217, 'barrel');
-  static const barrier_block_off = _TablerIconsData(0xf218, 'barrier_block_off');
+  static const barrier_block_off =
+      _TablerIconsData(0xf218, 'barrier_block_off');
   static const barrier_block = _TablerIconsData(0xf219, 'barrier_block');
   static const baseline = _TablerIconsData(0xf21a, 'baseline');
   static const basket_off = _TablerIconsData(0xf21b, 'basket_off');
@@ -309,8 +393,10 @@ class TablerIcons {
   static const battery_2 = _TablerIconsData(0xf221, 'battery_2');
   static const battery_3 = _TablerIconsData(0xf222, 'battery_3');
   static const battery_4 = _TablerIconsData(0xf223, 'battery_4');
-  static const battery_automotive = _TablerIconsData(0xf224, 'battery_automotive');
-  static const battery_charging_2 = _TablerIconsData(0xf225, 'battery_charging_2');
+  static const battery_automotive =
+      _TablerIconsData(0xf224, 'battery_automotive');
+  static const battery_charging_2 =
+      _TablerIconsData(0xf225, 'battery_charging_2');
   static const battery_charging = _TablerIconsData(0xf226, 'battery_charging');
   static const battery_eco = _TablerIconsData(0xf227, 'battery_eco');
   static const battery_off = _TablerIconsData(0xf228, 'battery_off');
@@ -338,11 +424,13 @@ class TablerIcons {
   static const biohazard_off = _TablerIconsData(0xf23e, 'biohazard_off');
   static const biohazard = _TablerIconsData(0xf23f, 'biohazard');
   static const bleach_chlorine = _TablerIconsData(0xf240, 'bleach_chlorine');
-  static const bleach_no_chlorine = _TablerIconsData(0xf241, 'bleach_no_chlorine');
+  static const bleach_no_chlorine =
+      _TablerIconsData(0xf241, 'bleach_no_chlorine');
   static const bleach_off = _TablerIconsData(0xf242, 'bleach_off');
   static const bleach = _TablerIconsData(0xf243, 'bleach');
   static const blockquote = _TablerIconsData(0xf244, 'blockquote');
-  static const bluetooth_connected = _TablerIconsData(0xf245, 'bluetooth_connected');
+  static const bluetooth_connected =
+      _TablerIconsData(0xf245, 'bluetooth_connected');
   static const bluetooth_off = _TablerIconsData(0xf246, 'bluetooth_off');
   static const bluetooth_x = _TablerIconsData(0xf247, 'bluetooth_x');
   static const bluetooth = _TablerIconsData(0xf248, 'bluetooth');
@@ -370,7 +458,8 @@ class TablerIcons {
   static const books = _TablerIconsData(0xf25e, 'books');
   static const border_all = _TablerIconsData(0xf25f, 'border_all');
   static const border_bottom = _TablerIconsData(0xf260, 'border_bottom');
-  static const border_horizontal = _TablerIconsData(0xf261, 'border_horizontal');
+  static const border_horizontal =
+      _TablerIconsData(0xf261, 'border_horizontal');
   static const border_inner = _TablerIconsData(0xf262, 'border_inner');
   static const border_left = _TablerIconsData(0xf263, 'border_left');
   static const border_none = _TablerIconsData(0xf264, 'border_none');
@@ -384,13 +473,17 @@ class TablerIcons {
   static const bottle_off = _TablerIconsData(0xf26c, 'bottle_off');
   static const bottle = _TablerIconsData(0xf26d, 'bottle');
   static const bow = _TablerIconsData(0xf26e, 'bow');
-  static const box_align_bottom_left = _TablerIconsData(0xf26f, 'box_align_bottom_left');
-  static const box_align_bottom_right = _TablerIconsData(0xf270, 'box_align_bottom_right');
+  static const box_align_bottom_left =
+      _TablerIconsData(0xf26f, 'box_align_bottom_left');
+  static const box_align_bottom_right =
+      _TablerIconsData(0xf270, 'box_align_bottom_right');
   static const box_align_bottom = _TablerIconsData(0xf271, 'box_align_bottom');
   static const box_align_left = _TablerIconsData(0xf272, 'box_align_left');
   static const box_align_right = _TablerIconsData(0xf273, 'box_align_right');
-  static const box_align_top_left = _TablerIconsData(0xf274, 'box_align_top_left');
-  static const box_align_top_right = _TablerIconsData(0xf275, 'box_align_top_right');
+  static const box_align_top_left =
+      _TablerIconsData(0xf274, 'box_align_top_left');
+  static const box_align_top_right =
+      _TablerIconsData(0xf275, 'box_align_top_right');
   static const box_align_top = _TablerIconsData(0xf276, 'box_align_top');
   static const box_margin = _TablerIconsData(0xf277, 'box_margin');
   static const box_model_2_off = _TablerIconsData(0xf278, 'box_model_2_off');
@@ -413,8 +506,10 @@ class TablerIcons {
   static const box = _TablerIconsData(0xf289, 'box');
   static const braces_off = _TablerIconsData(0xf28a, 'braces_off');
   static const braces = _TablerIconsData(0xf28b, 'braces');
-  static const brackets_contain_end = _TablerIconsData(0xf28c, 'brackets_contain_end');
-  static const brackets_contain_start = _TablerIconsData(0xf28d, 'brackets_contain_start');
+  static const brackets_contain_end =
+      _TablerIconsData(0xf28c, 'brackets_contain_end');
+  static const brackets_contain_start =
+      _TablerIconsData(0xf28d, 'brackets_contain_start');
   static const brackets_contain = _TablerIconsData(0xf28e, 'brackets_contain');
   static const brackets_off = _TablerIconsData(0xf28f, 'brackets_off');
   static const brackets = _TablerIconsData(0xf290, 'brackets');
@@ -428,8 +523,10 @@ class TablerIcons {
   static const brand_android = _TablerIconsData(0xf298, 'brand_android');
   static const brand_angular = _TablerIconsData(0xf299, 'brand_angular');
   static const brand_appgallery = _TablerIconsData(0xf29a, 'brand_appgallery');
-  static const brand_apple_arcade = _TablerIconsData(0xf29b, 'brand_apple_arcade');
-  static const brand_apple_podcast = _TablerIconsData(0xf29c, 'brand_apple_podcast');
+  static const brand_apple_arcade =
+      _TablerIconsData(0xf29b, 'brand_apple_arcade');
+  static const brand_apple_podcast =
+      _TablerIconsData(0xf29c, 'brand_apple_podcast');
   static const brand_apple = _TablerIconsData(0xf29d, 'brand_apple');
   static const brand_appstore = _TablerIconsData(0xf29e, 'brand_appstore');
   static const brand_asana = _TablerIconsData(0xf29f, 'brand_asana');
@@ -445,16 +542,20 @@ class TablerIcons {
   static const brand_booking = _TablerIconsData(0xf2a9, 'brand_booking');
   static const brand_bootstrap = _TablerIconsData(0xf2aa, 'brand_bootstrap');
   static const brand_bulma = _TablerIconsData(0xf2ab, 'brand_bulma');
-  static const brand_campaignmonitor = _TablerIconsData(0xf2ac, 'brand_campaignmonitor');
+  static const brand_campaignmonitor =
+      _TablerIconsData(0xf2ac, 'brand_campaignmonitor');
   static const brand_carbon = _TablerIconsData(0xf2ad, 'brand_carbon');
   static const brand_cashapp = _TablerIconsData(0xf2ae, 'brand_cashapp');
   static const brand_chrome = _TablerIconsData(0xf2af, 'brand_chrome');
   static const brand_codecov = _TablerIconsData(0xf2b0, 'brand_codecov');
   static const brand_codepen = _TablerIconsData(0xf2b1, 'brand_codepen');
-  static const brand_codesandbox = _TablerIconsData(0xf2b2, 'brand_codesandbox');
+  static const brand_codesandbox =
+      _TablerIconsData(0xf2b2, 'brand_codesandbox');
   static const brand_coinbase = _TablerIconsData(0xf2b3, 'brand_coinbase');
-  static const brand_comedy_central = _TablerIconsData(0xf2b4, 'brand_comedy_central');
-  static const brand_couchsurfing = _TablerIconsData(0xf2b5, 'brand_couchsurfing');
+  static const brand_comedy_central =
+      _TablerIconsData(0xf2b4, 'brand_comedy_central');
+  static const brand_couchsurfing =
+      _TablerIconsData(0xf2b5, 'brand_couchsurfing');
   static const brand_css3 = _TablerIconsData(0xf2b6, 'brand_css3');
   static const brand_cucumber = _TablerIconsData(0xf2b7, 'brand_cucumber');
   static const brand_cypress = _TablerIconsData(0xf2b8, 'brand_cypress');
@@ -489,12 +590,16 @@ class TablerIcons {
   static const brand_github = _TablerIconsData(0xf2d5, 'brand_github');
   static const brand_gitlab = _TablerIconsData(0xf2d6, 'brand_gitlab');
   static const brand_gmail = _TablerIconsData(0xf2d7, 'brand_gmail');
-  static const brand_google_analytics = _TablerIconsData(0xf2d8, 'brand_google_analytics');
-  static const brand_google_drive = _TablerIconsData(0xf2d9, 'brand_google_drive');
+  static const brand_google_analytics =
+      _TablerIconsData(0xf2d8, 'brand_google_analytics');
+  static const brand_google_drive =
+      _TablerIconsData(0xf2d9, 'brand_google_drive');
   static const brand_google_fit = _TablerIconsData(0xf2da, 'brand_google_fit');
   static const brand_google_one = _TablerIconsData(0xf2db, 'brand_google_one');
-  static const brand_google_photos = _TablerIconsData(0xf2dc, 'brand_google_photos');
-  static const brand_google_play = _TablerIconsData(0xf2dd, 'brand_google_play');
+  static const brand_google_photos =
+      _TablerIconsData(0xf2dc, 'brand_google_photos');
+  static const brand_google_play =
+      _TablerIconsData(0xf2dd, 'brand_google_play');
   static const brand_google = _TablerIconsData(0xf2de, 'brand_google');
   static const brand_grammarly = _TablerIconsData(0xf2df, 'brand_grammarly');
   static const brand_graphql = _TablerIconsData(0xf2e0, 'brand_graphql');
@@ -507,7 +612,8 @@ class TablerIcons {
   static const brand_instagram = _TablerIconsData(0xf2e7, 'brand_instagram');
   static const brand_intercom = _TablerIconsData(0xf2e8, 'brand_intercom');
   static const brand_javascript = _TablerIconsData(0xf2e9, 'brand_javascript');
-  static const brand_kickstarter = _TablerIconsData(0xf2ea, 'brand_kickstarter');
+  static const brand_kickstarter =
+      _TablerIconsData(0xf2ea, 'brand_kickstarter');
   static const brand_kotlin = _TablerIconsData(0xf2eb, 'brand_kotlin');
   static const brand_laravel = _TablerIconsData(0xf2ec, 'brand_laravel');
   static const brand_lastfm = _TablerIconsData(0xf2ed, 'brand_lastfm');
@@ -534,7 +640,8 @@ class TablerIcons {
   static const brand_nytimes = _TablerIconsData(0xf302, 'brand_nytimes');
   static const brand_office = _TablerIconsData(0xf303, 'brand_office');
   static const brand_ok_ru = _TablerIconsData(0xf304, 'brand_ok_ru');
-  static const brand_open_source = _TablerIconsData(0xf305, 'brand_open_source');
+  static const brand_open_source =
+      _TablerIconsData(0xf305, 'brand_open_source');
   static const brand_openvpn = _TablerIconsData(0xf306, 'brand_openvpn');
   static const brand_opera = _TablerIconsData(0xf307, 'brand_opera');
   static const brand_pagekit = _TablerIconsData(0xf308, 'brand_pagekit');
@@ -545,11 +652,13 @@ class TablerIcons {
   static const brand_php = _TablerIconsData(0xf30d, 'brand_php');
   static const brand_pinterest = _TablerIconsData(0xf30e, 'brand_pinterest');
   static const brand_pocket = _TablerIconsData(0xf30f, 'brand_pocket');
-  static const brand_producthunt = _TablerIconsData(0xf310, 'brand_producthunt');
+  static const brand_producthunt =
+      _TablerIconsData(0xf310, 'brand_producthunt');
   static const brand_pushbullet = _TablerIconsData(0xf311, 'brand_pushbullet');
   static const brand_pushover = _TablerIconsData(0xf312, 'brand_pushover');
   static const brand_python = _TablerIconsData(0xf313, 'brand_python');
-  static const brand_react_native = _TablerIconsData(0xf314, 'brand_react_native');
+  static const brand_react_native =
+      _TablerIconsData(0xf314, 'brand_react_native');
   static const brand_react = _TablerIconsData(0xf315, 'brand_react');
   static const brand_reddit = _TablerIconsData(0xf316, 'brand_reddit');
   static const brand_redhat = _TablerIconsData(0xf317, 'brand_redhat');
@@ -566,12 +675,14 @@ class TablerIcons {
   static const brand_snapseed = _TablerIconsData(0xf322, 'brand_snapseed');
   static const brand_soundcloud = _TablerIconsData(0xf323, 'brand_soundcloud');
   static const brand_spotify = _TablerIconsData(0xf324, 'brand_spotify');
-  static const brand_stackoverflow = _TablerIconsData(0xf325, 'brand_stackoverflow');
+  static const brand_stackoverflow =
+      _TablerIconsData(0xf325, 'brand_stackoverflow');
   static const brand_steam = _TablerIconsData(0xf326, 'brand_steam');
   static const brand_storybook = _TablerIconsData(0xf327, 'brand_storybook');
   static const brand_strava = _TablerIconsData(0xf328, 'brand_strava');
   static const brand_stripe = _TablerIconsData(0xf329, 'brand_stripe');
-  static const brand_sublime_text = _TablerIconsData(0xf32a, 'brand_sublime_text');
+  static const brand_sublime_text =
+      _TablerIconsData(0xf32a, 'brand_sublime_text');
   static const brand_surfshark = _TablerIconsData(0xf32b, 'brand_surfshark');
   static const brand_svelte = _TablerIconsData(0xf32c, 'brand_svelte');
   static const brand_tabler = _TablerIconsData(0xf32d, 'brand_tabler');
@@ -582,7 +693,8 @@ class TablerIcons {
   static const brand_tinder = _TablerIconsData(0xf332, 'brand_tinder');
   static const brand_toyota = _TablerIconsData(0xf333, 'brand_toyota');
   static const brand_trello = _TablerIconsData(0xf334, 'brand_trello');
-  static const brand_tripadvisor = _TablerIconsData(0xf335, 'brand_tripadvisor');
+  static const brand_tripadvisor =
+      _TablerIconsData(0xf335, 'brand_tripadvisor');
   static const brand_tumblr = _TablerIconsData(0xf336, 'brand_tumblr');
   static const brand_twitch = _TablerIconsData(0xf337, 'brand_twitch');
   static const brand_twitter = _TablerIconsData(0xf338, 'brand_twitter');
@@ -596,7 +708,8 @@ class TablerIcons {
   static const brand_vimeo = _TablerIconsData(0xf340, 'brand_vimeo');
   static const brand_vinted = _TablerIconsData(0xf341, 'brand_vinted');
   static const brand_visa = _TablerIconsData(0xf342, 'brand_visa');
-  static const brand_visual_studio = _TablerIconsData(0xf343, 'brand_visual_studio');
+  static const brand_visual_studio =
+      _TablerIconsData(0xf343, 'brand_visual_studio');
   static const brand_vivaldi = _TablerIconsData(0xf344, 'brand_vivaldi');
   static const brand_vk = _TablerIconsData(0xf345, 'brand_vk');
   static const brand_vsco = _TablerIconsData(0xf346, 'brand_vsco');
@@ -613,8 +726,10 @@ class TablerIcons {
   static const brand_xing = _TablerIconsData(0xf351, 'brand_xing');
   static const brand_yahoo = _TablerIconsData(0xf352, 'brand_yahoo');
   static const brand_yatse = _TablerIconsData(0xf353, 'brand_yatse');
-  static const brand_ycombinator = _TablerIconsData(0xf354, 'brand_ycombinator');
-  static const brand_youtube_kids = _TablerIconsData(0xf355, 'brand_youtube_kids');
+  static const brand_ycombinator =
+      _TablerIconsData(0xf354, 'brand_ycombinator');
+  static const brand_youtube_kids =
+      _TablerIconsData(0xf355, 'brand_youtube_kids');
   static const brand_youtube = _TablerIconsData(0xf356, 'brand_youtube');
   static const brand_zeit = _TablerIconsData(0xf357, 'brand_zeit');
   static const brand_zoom = _TablerIconsData(0xf358, 'brand_zoom');
@@ -644,23 +759,33 @@ class TablerIcons {
   static const bug = _TablerIconsData(0xf370, 'bug');
   static const building_arch = _TablerIconsData(0xf371, 'building_arch');
   static const building_bank = _TablerIconsData(0xf372, 'building_bank');
-  static const building_bridge_2 = _TablerIconsData(0xf373, 'building_bridge_2');
+  static const building_bridge_2 =
+      _TablerIconsData(0xf373, 'building_bridge_2');
   static const building_bridge = _TablerIconsData(0xf374, 'building_bridge');
-  static const building_carousel = _TablerIconsData(0xf375, 'building_carousel');
+  static const building_carousel =
+      _TablerIconsData(0xf375, 'building_carousel');
   static const building_castle = _TablerIconsData(0xf376, 'building_castle');
   static const building_church = _TablerIconsData(0xf377, 'building_church');
-  static const building_community = _TablerIconsData(0xf378, 'building_community');
+  static const building_community =
+      _TablerIconsData(0xf378, 'building_community');
   static const building_cottage = _TablerIconsData(0xf379, 'building_cottage');
-  static const building_factory_2 = _TablerIconsData(0xf37a, 'building_factory_2');
+  static const building_factory_2 =
+      _TablerIconsData(0xf37a, 'building_factory_2');
   static const building_factory = _TablerIconsData(0xf37b, 'building_factory');
-  static const building_fortress = _TablerIconsData(0xf37c, 'building_fortress');
-  static const building_hospital = _TablerIconsData(0xf37d, 'building_hospital');
-  static const building_lighthouse = _TablerIconsData(0xf37e, 'building_lighthouse');
-  static const building_monument = _TablerIconsData(0xf37f, 'building_monument');
+  static const building_fortress =
+      _TablerIconsData(0xf37c, 'building_fortress');
+  static const building_hospital =
+      _TablerIconsData(0xf37d, 'building_hospital');
+  static const building_lighthouse =
+      _TablerIconsData(0xf37e, 'building_lighthouse');
+  static const building_monument =
+      _TablerIconsData(0xf37f, 'building_monument');
   static const building_pavilon = _TablerIconsData(0xf380, 'building_pavilon');
-  static const building_skyscraper = _TablerIconsData(0xf381, 'building_skyscraper');
+  static const building_skyscraper =
+      _TablerIconsData(0xf381, 'building_skyscraper');
   static const building_store = _TablerIconsData(0xf382, 'building_store');
-  static const building_warehouse = _TablerIconsData(0xf383, 'building_warehouse');
+  static const building_warehouse =
+      _TablerIconsData(0xf383, 'building_warehouse');
   static const building = _TablerIconsData(0xf384, 'building');
   static const bulb_off = _TablerIconsData(0xf385, 'bulb_off');
   static const bulb = _TablerIconsData(0xf386, 'bulb');
@@ -708,7 +833,8 @@ class TablerIcons {
   static const caret_up = _TablerIconsData(0xf3b0, 'caret_up');
   static const carrot_off = _TablerIconsData(0xf3b1, 'carrot_off');
   static const carrot = _TablerIconsData(0xf3b2, 'carrot');
-  static const cash_banknote_off = _TablerIconsData(0xf3b3, 'cash_banknote_off');
+  static const cash_banknote_off =
+      _TablerIconsData(0xf3b3, 'cash_banknote_off');
   static const cash_banknote = _TablerIconsData(0xf3b4, 'cash_banknote');
   static const cash_off = _TablerIconsData(0xf3b5, 'cash_off');
   static const cash = _TablerIconsData(0xf3b6, 'cash');
@@ -725,7 +851,8 @@ class TablerIcons {
   static const cell_signal_5 = _TablerIconsData(0xf3c1, 'cell_signal_5');
   static const cell_signal_off = _TablerIconsData(0xf3c2, 'cell_signal_off');
   static const cell = _TablerIconsData(0xf3c3, 'cell');
-  static const certificate_2_off = _TablerIconsData(0xf3c4, 'certificate_2_off');
+  static const certificate_2_off =
+      _TablerIconsData(0xf3c4, 'certificate_2_off');
   static const certificate_2 = _TablerIconsData(0xf3c5, 'certificate_2');
   static const certificate_off = _TablerIconsData(0xf3c6, 'certificate_off');
   static const certificate = _TablerIconsData(0xf3c7, 'certificate');
@@ -737,7 +864,8 @@ class TablerIcons {
   static const chart_arcs = _TablerIconsData(0xf3cd, 'chart_arcs');
   static const chart_area_line = _TablerIconsData(0xf3ce, 'chart_area_line');
   static const chart_area = _TablerIconsData(0xf3cf, 'chart_area');
-  static const chart_arrows_vertical = _TablerIconsData(0xf3d0, 'chart_arrows_vertical');
+  static const chart_arrows_vertical =
+      _TablerIconsData(0xf3d0, 'chart_arrows_vertical');
   static const chart_arrows = _TablerIconsData(0xf3d1, 'chart_arrows');
   static const chart_bar_off = _TablerIconsData(0xf3d2, 'chart_bar_off');
   static const chart_bar = _TablerIconsData(0xf3d3, 'chart_bar');
@@ -751,7 +879,8 @@ class TablerIcons {
   static const chart_dots_2 = _TablerIconsData(0xf3db, 'chart_dots_2');
   static const chart_dots_3 = _TablerIconsData(0xf3dc, 'chart_dots_3');
   static const chart_dots = _TablerIconsData(0xf3dd, 'chart_dots');
-  static const chart_infographic = _TablerIconsData(0xf3de, 'chart_infographic');
+  static const chart_infographic =
+      _TablerIconsData(0xf3de, 'chart_infographic');
   static const chart_line = _TablerIconsData(0xf3df, 'chart_line');
   static const chart_pie_2 = _TablerIconsData(0xf3e0, 'chart_pie_2');
   static const chart_pie_3 = _TablerIconsData(0xf3e1, 'chart_pie_3');
@@ -769,24 +898,30 @@ class TablerIcons {
   static const chef_hat_off = _TablerIconsData(0xf3ed, 'chef_hat_off');
   static const chef_hat = _TablerIconsData(0xf3ee, 'chef_hat');
   static const chess = _TablerIconsData(0xf3ef, 'chess');
-  static const chevron_down_left = _TablerIconsData(0xf3f0, 'chevron_down_left');
-  static const chevron_down_right = _TablerIconsData(0xf3f1, 'chevron_down_right');
+  static const chevron_down_left =
+      _TablerIconsData(0xf3f0, 'chevron_down_left');
+  static const chevron_down_right =
+      _TablerIconsData(0xf3f1, 'chevron_down_right');
   static const chevron_down = _TablerIconsData(0xf3f2, 'chevron_down');
   static const chevron_left = _TablerIconsData(0xf3f3, 'chevron_left');
   static const chevron_right = _TablerIconsData(0xf3f4, 'chevron_right');
   static const chevron_up_left = _TablerIconsData(0xf3f5, 'chevron_up_left');
   static const chevron_up_right = _TablerIconsData(0xf3f6, 'chevron_up_right');
   static const chevron_up = _TablerIconsData(0xf3f7, 'chevron_up');
-  static const chevrons_down_left = _TablerIconsData(0xf3f8, 'chevrons_down_left');
-  static const chevrons_down_right = _TablerIconsData(0xf3f9, 'chevrons_down_right');
+  static const chevrons_down_left =
+      _TablerIconsData(0xf3f8, 'chevrons_down_left');
+  static const chevrons_down_right =
+      _TablerIconsData(0xf3f9, 'chevrons_down_right');
   static const chevrons_down = _TablerIconsData(0xf3fa, 'chevrons_down');
   static const chevrons_left = _TablerIconsData(0xf3fb, 'chevrons_left');
   static const chevrons_right = _TablerIconsData(0xf3fc, 'chevrons_right');
   static const chevrons_up_left = _TablerIconsData(0xf3fd, 'chevrons_up_left');
-  static const chevrons_up_right = _TablerIconsData(0xf3fe, 'chevrons_up_right');
+  static const chevrons_up_right =
+      _TablerIconsData(0xf3fe, 'chevrons_up_right');
   static const chevrons_up = _TablerIconsData(0xf3ff, 'chevrons_up');
   static const chisel = _TablerIconsData(0xf400, 'chisel');
-  static const christmas_tree_off = _TablerIconsData(0xf401, 'christmas_tree_off');
+  static const christmas_tree_off =
+      _TablerIconsData(0xf401, 'christmas_tree_off');
   static const christmas_tree = _TablerIconsData(0xf402, 'christmas_tree');
   static const circle_0 = _TablerIconsData(0xf403, 'circle_0');
   static const circle_1 = _TablerIconsData(0xf404, 'circle_1');
@@ -811,7 +946,8 @@ class TablerIcons {
   static const circle_g = _TablerIconsData(0xf417, 'circle_g');
   static const circle_h = _TablerIconsData(0xf418, 'circle_h');
   static const circle_half_2 = _TablerIconsData(0xf419, 'circle_half_2');
-  static const circle_half_vertical = _TablerIconsData(0xf41a, 'circle_half_vertical');
+  static const circle_half_vertical =
+      _TablerIconsData(0xf41a, 'circle_half_vertical');
   static const circle_half = _TablerIconsData(0xf41b, 'circle_half');
   static const circle_i = _TablerIconsData(0xf41c, 'circle_i');
   static const circle_j = _TablerIconsData(0xf41d, 'circle_j');
@@ -826,7 +962,8 @@ class TablerIcons {
   static const circle_plus = _TablerIconsData(0xf426, 'circle_plus');
   static const circle_q = _TablerIconsData(0xf427, 'circle_q');
   static const circle_r = _TablerIconsData(0xf428, 'circle_r');
-  static const circle_rectangle_off = _TablerIconsData(0xf429, 'circle_rectangle_off');
+  static const circle_rectangle_off =
+      _TablerIconsData(0xf429, 'circle_rectangle_off');
   static const circle_rectangle = _TablerIconsData(0xf42a, 'circle_rectangle');
   static const circle_s = _TablerIconsData(0xf42b, 'circle_s');
   static const circle_square = _TablerIconsData(0xf42c, 'circle_square');
@@ -842,22 +979,32 @@ class TablerIcons {
   static const circuit_ammeter = _TablerIconsData(0xf436, 'circuit_ammeter');
   static const circuit_battery = _TablerIconsData(0xf437, 'circuit_battery');
   static const circuit_bulb = _TablerIconsData(0xf438, 'circuit_bulb');
-  static const circuit_capacitor_polarized = _TablerIconsData(0xf439, 'circuit_capacitor_polarized');
-  static const circuit_capacitor = _TablerIconsData(0xf43a, 'circuit_capacitor');
-  static const circuit_cell_plus = _TablerIconsData(0xf43b, 'circuit_cell_plus');
+  static const circuit_capacitor_polarized =
+      _TablerIconsData(0xf439, 'circuit_capacitor_polarized');
+  static const circuit_capacitor =
+      _TablerIconsData(0xf43a, 'circuit_capacitor');
+  static const circuit_cell_plus =
+      _TablerIconsData(0xf43b, 'circuit_cell_plus');
   static const circuit_cell = _TablerIconsData(0xf43c, 'circuit_cell');
-  static const circuit_changeover = _TablerIconsData(0xf43d, 'circuit_changeover');
-  static const circuit_diode_zener = _TablerIconsData(0xf43e, 'circuit_diode_zener');
+  static const circuit_changeover =
+      _TablerIconsData(0xf43d, 'circuit_changeover');
+  static const circuit_diode_zener =
+      _TablerIconsData(0xf43e, 'circuit_diode_zener');
   static const circuit_diode = _TablerIconsData(0xf43f, 'circuit_diode');
-  static const circuit_ground_digital = _TablerIconsData(0xf440, 'circuit_ground_digital');
+  static const circuit_ground_digital =
+      _TablerIconsData(0xf440, 'circuit_ground_digital');
   static const circuit_ground = _TablerIconsData(0xf441, 'circuit_ground');
   static const circuit_inductor = _TablerIconsData(0xf442, 'circuit_inductor');
   static const circuit_motor = _TablerIconsData(0xf443, 'circuit_motor');
-  static const circuit_pushbutton = _TablerIconsData(0xf444, 'circuit_pushbutton');
+  static const circuit_pushbutton =
+      _TablerIconsData(0xf444, 'circuit_pushbutton');
   static const circuit_resistor = _TablerIconsData(0xf445, 'circuit_resistor');
-  static const circuit_switch_closed = _TablerIconsData(0xf446, 'circuit_switch_closed');
-  static const circuit_switch_open = _TablerIconsData(0xf447, 'circuit_switch_open');
-  static const circuit_voltmeter = _TablerIconsData(0xf448, 'circuit_voltmeter');
+  static const circuit_switch_closed =
+      _TablerIconsData(0xf446, 'circuit_switch_closed');
+  static const circuit_switch_open =
+      _TablerIconsData(0xf447, 'circuit_switch_open');
+  static const circuit_voltmeter =
+      _TablerIconsData(0xf448, 'circuit_voltmeter');
   static const clear_all = _TablerIconsData(0xf449, 'clear_all');
   static const clear_formatting = _TablerIconsData(0xf44a, 'clear_formatting');
   static const click = _TablerIconsData(0xf44b, 'click');
@@ -868,7 +1015,8 @@ class TablerIcons {
   static const clipboard_off = _TablerIconsData(0xf450, 'clipboard_off');
   static const clipboard_plus = _TablerIconsData(0xf451, 'clipboard_plus');
   static const clipboard_text = _TablerIconsData(0xf452, 'clipboard_text');
-  static const clipboard_typography = _TablerIconsData(0xf453, 'clipboard_typography');
+  static const clipboard_typography =
+      _TablerIconsData(0xf453, 'clipboard_typography');
   static const clipboard_x = _TablerIconsData(0xf454, 'clipboard_x');
   static const clipboard = _TablerIconsData(0xf455, 'clipboard');
   static const clock_2 = _TablerIconsData(0xf456, 'clock_2');
@@ -889,7 +1037,8 @@ class TablerIcons {
   static const clothes_rack_off = _TablerIconsData(0xf465, 'clothes_rack_off');
   static const clothes_rack = _TablerIconsData(0xf466, 'clothes_rack');
   static const cloud_computing = _TablerIconsData(0xf467, 'cloud_computing');
-  static const cloud_data_connection = _TablerIconsData(0xf468, 'cloud_data_connection');
+  static const cloud_data_connection =
+      _TablerIconsData(0xf468, 'cloud_data_connection');
   static const cloud_download = _TablerIconsData(0xf469, 'cloud_download');
   static const cloud_fog = _TablerIconsData(0xf46a, 'cloud_fog');
   static const cloud_lock_open = _TablerIconsData(0xf46b, 'cloud_lock_open');
@@ -922,8 +1071,10 @@ class TablerIcons {
   static const color_picker = _TablerIconsData(0xf486, 'color_picker');
   static const color_swatch_off = _TablerIconsData(0xf487, 'color_swatch_off');
   static const color_swatch = _TablerIconsData(0xf488, 'color_swatch');
-  static const column_insert_left = _TablerIconsData(0xf489, 'column_insert_left');
-  static const column_insert_right = _TablerIconsData(0xf48a, 'column_insert_right');
+  static const column_insert_left =
+      _TablerIconsData(0xf489, 'column_insert_left');
+  static const column_insert_right =
+      _TablerIconsData(0xf48a, 'column_insert_right');
   static const columns_off = _TablerIconsData(0xf48b, 'columns_off');
   static const columns = _TablerIconsData(0xf48c, 'columns');
   static const comet = _TablerIconsData(0xf48d, 'comet');
@@ -952,33 +1103,49 @@ class TablerIcons {
   static const copyleft = _TablerIconsData(0xf4a4, 'copyleft');
   static const copyright_off = _TablerIconsData(0xf4a5, 'copyright_off');
   static const copyright = _TablerIconsData(0xf4a6, 'copyright');
-  static const corner_down_left_double = _TablerIconsData(0xf4a7, 'corner_down_left_double');
+  static const corner_down_left_double =
+      _TablerIconsData(0xf4a7, 'corner_down_left_double');
   static const corner_down_left = _TablerIconsData(0xf4a8, 'corner_down_left');
-  static const corner_down_right_double = _TablerIconsData(0xf4a9, 'corner_down_right_double');
-  static const corner_down_right = _TablerIconsData(0xf4aa, 'corner_down_right');
-  static const corner_left_down_double = _TablerIconsData(0xf4ab, 'corner_left_down_double');
+  static const corner_down_right_double =
+      _TablerIconsData(0xf4a9, 'corner_down_right_double');
+  static const corner_down_right =
+      _TablerIconsData(0xf4aa, 'corner_down_right');
+  static const corner_left_down_double =
+      _TablerIconsData(0xf4ab, 'corner_left_down_double');
   static const corner_left_down = _TablerIconsData(0xf4ac, 'corner_left_down');
-  static const corner_left_up_double = _TablerIconsData(0xf4ad, 'corner_left_up_double');
+  static const corner_left_up_double =
+      _TablerIconsData(0xf4ad, 'corner_left_up_double');
   static const corner_left_up = _TablerIconsData(0xf4ae, 'corner_left_up');
-  static const corner_right_down_double = _TablerIconsData(0xf4af, 'corner_right_down_double');
-  static const corner_right_down = _TablerIconsData(0xf4b0, 'corner_right_down');
-  static const corner_right_up_double = _TablerIconsData(0xf4b1, 'corner_right_up_double');
+  static const corner_right_down_double =
+      _TablerIconsData(0xf4af, 'corner_right_down_double');
+  static const corner_right_down =
+      _TablerIconsData(0xf4b0, 'corner_right_down');
+  static const corner_right_up_double =
+      _TablerIconsData(0xf4b1, 'corner_right_up_double');
   static const corner_right_up = _TablerIconsData(0xf4b2, 'corner_right_up');
-  static const corner_up_left_double = _TablerIconsData(0xf4b3, 'corner_up_left_double');
+  static const corner_up_left_double =
+      _TablerIconsData(0xf4b3, 'corner_up_left_double');
   static const corner_up_left = _TablerIconsData(0xf4b4, 'corner_up_left');
-  static const corner_up_right_double = _TablerIconsData(0xf4b5, 'corner_up_right_double');
+  static const corner_up_right_double =
+      _TablerIconsData(0xf4b5, 'corner_up_right_double');
   static const corner_up_right = _TablerIconsData(0xf4b6, 'corner_up_right');
   static const cpu_2 = _TablerIconsData(0xf4b7, 'cpu_2');
   static const cpu_off = _TablerIconsData(0xf4b8, 'cpu_off');
   static const cpu = _TablerIconsData(0xf4b9, 'cpu');
   static const crane_off = _TablerIconsData(0xf4ba, 'crane_off');
   static const crane = _TablerIconsData(0xf4bb, 'crane');
-  static const creative_commons_by = _TablerIconsData(0xf4bc, 'creative_commons_by');
-  static const creative_commons_nc = _TablerIconsData(0xf4bd, 'creative_commons_nc');
-  static const creative_commons_nd = _TablerIconsData(0xf4be, 'creative_commons_nd');
-  static const creative_commons_off = _TablerIconsData(0xf4bf, 'creative_commons_off');
-  static const creative_commons_sa = _TablerIconsData(0xf4c0, 'creative_commons_sa');
-  static const creative_commons_zero = _TablerIconsData(0xf4c1, 'creative_commons_zero');
+  static const creative_commons_by =
+      _TablerIconsData(0xf4bc, 'creative_commons_by');
+  static const creative_commons_nc =
+      _TablerIconsData(0xf4bd, 'creative_commons_nc');
+  static const creative_commons_nd =
+      _TablerIconsData(0xf4be, 'creative_commons_nd');
+  static const creative_commons_off =
+      _TablerIconsData(0xf4bf, 'creative_commons_off');
+  static const creative_commons_sa =
+      _TablerIconsData(0xf4c0, 'creative_commons_sa');
+  static const creative_commons_zero =
+      _TablerIconsData(0xf4c1, 'creative_commons_zero');
   static const creative_commons = _TablerIconsData(0xf4c2, 'creative_commons');
   static const credit_card_off = _TablerIconsData(0xf4c3, 'credit_card_off');
   static const credit_card = _TablerIconsData(0xf4c4, 'credit_card');
@@ -995,54 +1162,72 @@ class TablerIcons {
   static const cup = _TablerIconsData(0xf4cf, 'cup');
   static const curling = _TablerIconsData(0xf4d0, 'curling');
   static const curly_loop = _TablerIconsData(0xf4d1, 'curly_loop');
-  static const currency_bahraini = _TablerIconsData(0xf4d2, 'currency_bahraini');
+  static const currency_bahraini =
+      _TablerIconsData(0xf4d2, 'currency_bahraini');
   static const currency_baht = _TablerIconsData(0xf4d3, 'currency_baht');
   static const currency_bitcoin = _TablerIconsData(0xf4d4, 'currency_bitcoin');
   static const currency_cent = _TablerIconsData(0xf4d5, 'currency_cent');
   static const currency_dinar = _TablerIconsData(0xf4d6, 'currency_dinar');
   static const currency_dirham = _TablerIconsData(0xf4d7, 'currency_dirham');
-  static const currency_dogecoin = _TablerIconsData(0xf4d8, 'currency_dogecoin');
-  static const currency_dollar_australian = _TablerIconsData(0xf4d9, 'currency_dollar_australian');
-  static const currency_dollar_brunei = _TablerIconsData(0xf4da, 'currency_dollar_brunei');
-  static const currency_dollar_canadian = _TablerIconsData(0xf4db, 'currency_dollar_canadian');
-  static const currency_dollar_guyanese = _TablerIconsData(0xf4dc, 'currency_dollar_guyanese');
-  static const currency_dollar_off = _TablerIconsData(0xf4dd, 'currency_dollar_off');
-  static const currency_dollar_singapore = _TablerIconsData(0xf4de, 'currency_dollar_singapore');
-  static const currency_dollar_zimbabwean = _TablerIconsData(0xf4df, 'currency_dollar_zimbabwean');
+  static const currency_dogecoin =
+      _TablerIconsData(0xf4d8, 'currency_dogecoin');
+  static const currency_dollar_australian =
+      _TablerIconsData(0xf4d9, 'currency_dollar_australian');
+  static const currency_dollar_brunei =
+      _TablerIconsData(0xf4da, 'currency_dollar_brunei');
+  static const currency_dollar_canadian =
+      _TablerIconsData(0xf4db, 'currency_dollar_canadian');
+  static const currency_dollar_guyanese =
+      _TablerIconsData(0xf4dc, 'currency_dollar_guyanese');
+  static const currency_dollar_off =
+      _TablerIconsData(0xf4dd, 'currency_dollar_off');
+  static const currency_dollar_singapore =
+      _TablerIconsData(0xf4de, 'currency_dollar_singapore');
+  static const currency_dollar_zimbabwean =
+      _TablerIconsData(0xf4df, 'currency_dollar_zimbabwean');
   static const currency_dollar = _TablerIconsData(0xf4e0, 'currency_dollar');
   static const currency_dong = _TablerIconsData(0xf4e1, 'currency_dong');
   static const currency_dram = _TablerIconsData(0xf4e2, 'currency_dram');
-  static const currency_ethereum = _TablerIconsData(0xf4e3, 'currency_ethereum');
-  static const currency_euro_off = _TablerIconsData(0xf4e4, 'currency_euro_off');
+  static const currency_ethereum =
+      _TablerIconsData(0xf4e3, 'currency_ethereum');
+  static const currency_euro_off =
+      _TablerIconsData(0xf4e4, 'currency_euro_off');
   static const currency_euro = _TablerIconsData(0xf4e5, 'currency_euro');
   static const currency_forint = _TablerIconsData(0xf4e6, 'currency_forint');
   static const currency_frank = _TablerIconsData(0xf4e7, 'currency_frank');
   static const currency_guarani = _TablerIconsData(0xf4e8, 'currency_guarani');
   static const currency_hryvnia = _TablerIconsData(0xf4e9, 'currency_hryvnia');
   static const currency_kip = _TablerIconsData(0xf4ea, 'currency_kip');
-  static const currency_krone_czech = _TablerIconsData(0xf4eb, 'currency_krone_czech');
-  static const currency_krone_danish = _TablerIconsData(0xf4ec, 'currency_krone_danish');
-  static const currency_krone_swedish = _TablerIconsData(0xf4ed, 'currency_krone_swedish');
+  static const currency_krone_czech =
+      _TablerIconsData(0xf4eb, 'currency_krone_czech');
+  static const currency_krone_danish =
+      _TablerIconsData(0xf4ec, 'currency_krone_danish');
+  static const currency_krone_swedish =
+      _TablerIconsData(0xf4ed, 'currency_krone_swedish');
   static const currency_lari = _TablerIconsData(0xf4ee, 'currency_lari');
   static const currency_leu = _TablerIconsData(0xf4ef, 'currency_leu');
   static const currency_lira = _TablerIconsData(0xf4f0, 'currency_lira');
-  static const currency_litecoin = _TablerIconsData(0xf4f1, 'currency_litecoin');
+  static const currency_litecoin =
+      _TablerIconsData(0xf4f1, 'currency_litecoin');
   static const currency_lyd = _TablerIconsData(0xf4f2, 'currency_lyd');
   static const currency_manat = _TablerIconsData(0xf4f3, 'currency_manat');
   static const currency_monero = _TablerIconsData(0xf4f4, 'currency_monero');
   static const currency_naira = _TablerIconsData(0xf4f5, 'currency_naira');
   static const currency_off = _TablerIconsData(0xf4f6, 'currency_off');
   static const currency_paanga = _TablerIconsData(0xf4f7, 'currency_paanga');
-  static const currency_pound_off = _TablerIconsData(0xf4f8, 'currency_pound_off');
+  static const currency_pound_off =
+      _TablerIconsData(0xf4f8, 'currency_pound_off');
   static const currency_pound = _TablerIconsData(0xf4f9, 'currency_pound');
   static const currency_quetzal = _TablerIconsData(0xf4fa, 'currency_quetzal');
   static const currency_real = _TablerIconsData(0xf4fb, 'currency_real');
-  static const currency_renminbi = _TablerIconsData(0xf4fc, 'currency_renminbi');
+  static const currency_renminbi =
+      _TablerIconsData(0xf4fc, 'currency_renminbi');
   static const currency_ripple = _TablerIconsData(0xf4fd, 'currency_ripple');
   static const currency_riyal = _TablerIconsData(0xf4fe, 'currency_riyal');
   static const currency_rubel = _TablerIconsData(0xf4ff, 'currency_rubel');
   static const currency_rufiyaa = _TablerIconsData(0xf500, 'currency_rufiyaa');
-  static const currency_rupee_nepalese = _TablerIconsData(0xf501, 'currency_rupee_nepalese');
+  static const currency_rupee_nepalese =
+      _TablerIconsData(0xf501, 'currency_rupee_nepalese');
   static const currency_rupee = _TablerIconsData(0xf502, 'currency_rupee');
   static const currency_shekel = _TablerIconsData(0xf503, 'currency_shekel');
   static const currency_som = _TablerIconsData(0xf504, 'currency_som');
@@ -1055,7 +1240,8 @@ class TablerIcons {
   static const currency_yuan = _TablerIconsData(0xf50b, 'currency_yuan');
   static const currency_zloty = _TablerIconsData(0xf50c, 'currency_zloty');
   static const currency = _TablerIconsData(0xf50d, 'currency');
-  static const current_location_off = _TablerIconsData(0xf50e, 'current_location_off');
+  static const current_location_off =
+      _TablerIconsData(0xf50e, 'current_location_off');
   static const current_location = _TablerIconsData(0xf50f, 'current_location');
   static const cursor_off = _TablerIconsData(0xf510, 'cursor_off');
   static const cursor_text = _TablerIconsData(0xf511, 'cursor_text');
@@ -1072,40 +1258,58 @@ class TablerIcons {
   static const details_off = _TablerIconsData(0xf51c, 'details_off');
   static const details = _TablerIconsData(0xf51d, 'details');
   static const device_analytics = _TablerIconsData(0xf51e, 'device_analytics');
-  static const device_audio_tape = _TablerIconsData(0xf51f, 'device_audio_tape');
-  static const device_camera_phone = _TablerIconsData(0xf520, 'device_camera_phone');
+  static const device_audio_tape =
+      _TablerIconsData(0xf51f, 'device_audio_tape');
+  static const device_camera_phone =
+      _TablerIconsData(0xf520, 'device_camera_phone');
   static const device_cctv_off = _TablerIconsData(0xf521, 'device_cctv_off');
   static const device_cctv = _TablerIconsData(0xf522, 'device_cctv');
-  static const device_computer_camera_off = _TablerIconsData(0xf523, 'device_computer_camera_off');
-  static const device_computer_camera = _TablerIconsData(0xf524, 'device_computer_camera');
-  static const device_desktop_analytics = _TablerIconsData(0xf525, 'device_desktop_analytics');
-  static const device_desktop_off = _TablerIconsData(0xf526, 'device_desktop_off');
+  static const device_computer_camera_off =
+      _TablerIconsData(0xf523, 'device_computer_camera_off');
+  static const device_computer_camera =
+      _TablerIconsData(0xf524, 'device_computer_camera');
+  static const device_desktop_analytics =
+      _TablerIconsData(0xf525, 'device_desktop_analytics');
+  static const device_desktop_off =
+      _TablerIconsData(0xf526, 'device_desktop_off');
   static const device_desktop = _TablerIconsData(0xf527, 'device_desktop');
   static const device_floppy = _TablerIconsData(0xf528, 'device_floppy');
   static const device_gamepad_2 = _TablerIconsData(0xf529, 'device_gamepad_2');
   static const device_gamepad = _TablerIconsData(0xf52a, 'device_gamepad');
-  static const device_heart_monitor = _TablerIconsData(0xf52b, 'device_heart_monitor');
-  static const device_laptop_off = _TablerIconsData(0xf52c, 'device_laptop_off');
+  static const device_heart_monitor =
+      _TablerIconsData(0xf52b, 'device_heart_monitor');
+  static const device_laptop_off =
+      _TablerIconsData(0xf52c, 'device_laptop_off');
   static const device_laptop = _TablerIconsData(0xf52d, 'device_laptop');
-  static const device_mobile_charging = _TablerIconsData(0xf52e, 'device_mobile_charging');
-  static const device_mobile_message = _TablerIconsData(0xf52f, 'device_mobile_message');
-  static const device_mobile_off = _TablerIconsData(0xf530, 'device_mobile_off');
-  static const device_mobile_rotated = _TablerIconsData(0xf531, 'device_mobile_rotated');
-  static const device_mobile_vibration = _TablerIconsData(0xf532, 'device_mobile_vibration');
+  static const device_mobile_charging =
+      _TablerIconsData(0xf52e, 'device_mobile_charging');
+  static const device_mobile_message =
+      _TablerIconsData(0xf52f, 'device_mobile_message');
+  static const device_mobile_off =
+      _TablerIconsData(0xf530, 'device_mobile_off');
+  static const device_mobile_rotated =
+      _TablerIconsData(0xf531, 'device_mobile_rotated');
+  static const device_mobile_vibration =
+      _TablerIconsData(0xf532, 'device_mobile_vibration');
   static const device_mobile = _TablerIconsData(0xf533, 'device_mobile');
-  static const device_nintendo_off = _TablerIconsData(0xf534, 'device_nintendo_off');
+  static const device_nintendo_off =
+      _TablerIconsData(0xf534, 'device_nintendo_off');
   static const device_nintendo = _TablerIconsData(0xf535, 'device_nintendo');
   static const device_sd_card = _TablerIconsData(0xf536, 'device_sd_card');
-  static const device_speaker_off = _TablerIconsData(0xf537, 'device_speaker_off');
+  static const device_speaker_off =
+      _TablerIconsData(0xf537, 'device_speaker_off');
   static const device_speaker = _TablerIconsData(0xf538, 'device_speaker');
-  static const device_tablet_off = _TablerIconsData(0xf539, 'device_tablet_off');
+  static const device_tablet_off =
+      _TablerIconsData(0xf539, 'device_tablet_off');
   static const device_tablet = _TablerIconsData(0xf53a, 'device_tablet');
   static const device_tv_off = _TablerIconsData(0xf53b, 'device_tv_off');
   static const device_tv_old = _TablerIconsData(0xf53c, 'device_tv_old');
   static const device_tv = _TablerIconsData(0xf53d, 'device_tv');
   static const device_watch_off = _TablerIconsData(0xf53e, 'device_watch_off');
-  static const device_watch_stats_2 = _TablerIconsData(0xf53f, 'device_watch_stats_2');
-  static const device_watch_stats = _TablerIconsData(0xf540, 'device_watch_stats');
+  static const device_watch_stats_2 =
+      _TablerIconsData(0xf53f, 'device_watch_stats_2');
+  static const device_watch_stats =
+      _TablerIconsData(0xf540, 'device_watch_stats');
   static const device_watch = _TablerIconsData(0xf541, 'device_watch');
   static const devices_2 = _TablerIconsData(0xf542, 'devices_2');
   static const devices_off = _TablerIconsData(0xf543, 'devices_off');
@@ -1125,8 +1329,10 @@ class TablerIcons {
   static const dice_6 = _TablerIconsData(0xf551, 'dice_6');
   static const dice = _TablerIconsData(0xf552, 'dice');
   static const dimensions = _TablerIconsData(0xf553, 'dimensions');
-  static const direction_horizontal = _TablerIconsData(0xf554, 'direction_horizontal');
-  static const direction_sign_off = _TablerIconsData(0xf555, 'direction_sign_off');
+  static const direction_horizontal =
+      _TablerIconsData(0xf554, 'direction_horizontal');
+  static const direction_sign_off =
+      _TablerIconsData(0xf555, 'direction_sign_off');
   static const direction_sign = _TablerIconsData(0xf556, 'direction_sign');
   static const direction = _TablerIconsData(0xf557, 'direction');
   static const directions_off = _TablerIconsData(0xf558, 'directions_off');
@@ -1152,7 +1358,8 @@ class TablerIcons {
   static const door_exit = _TablerIconsData(0xf56c, 'door_exit');
   static const door_off = _TablerIconsData(0xf56d, 'door_off');
   static const door = _TablerIconsData(0xf56e, 'door');
-  static const dots_circle_horizontal = _TablerIconsData(0xf56f, 'dots_circle_horizontal');
+  static const dots_circle_horizontal =
+      _TablerIconsData(0xf56f, 'dots_circle_horizontal');
   static const dots_diagonal_2 = _TablerIconsData(0xf570, 'dots_diagonal_2');
   static const dots_diagonal = _TablerIconsData(0xf571, 'dots_diagonal');
   static const dots_vertical = _TablerIconsData(0xf572, 'dots_vertical');
@@ -1196,7 +1403,8 @@ class TablerIcons {
   static const error_404 = _TablerIconsData(0xf598, 'error_404');
   static const exchange_off = _TablerIconsData(0xf599, 'exchange_off');
   static const exchange = _TablerIconsData(0xf59a, 'exchange');
-  static const exclamation_mark_off = _TablerIconsData(0xf59b, 'exclamation_mark_off');
+  static const exclamation_mark_off =
+      _TablerIconsData(0xf59b, 'exclamation_mark_off');
   static const exclamation_mark = _TablerIconsData(0xf59c, 'exclamation_mark');
   static const explicit_off = _TablerIconsData(0xf59d, 'explicit_off');
   static const explicit = _TablerIconsData(0xf59e, 'explicit');
@@ -1207,7 +1415,8 @@ class TablerIcons {
   static const exposure_plus_1 = _TablerIconsData(0xf5a3, 'exposure_plus_1');
   static const exposure_plus_2 = _TablerIconsData(0xf5a4, 'exposure_plus_2');
   static const exposure = _TablerIconsData(0xf5a5, 'exposure');
-  static const external_link_off = _TablerIconsData(0xf5a6, 'external_link_off');
+  static const external_link_off =
+      _TablerIconsData(0xf5a6, 'external_link_off');
   static const external_link = _TablerIconsData(0xf5a7, 'external_link');
   static const eye_check = _TablerIconsData(0xf5a8, 'eye_check');
   static const eye_off = _TablerIconsData(0xf5a9, 'eye_off');
@@ -1288,7 +1497,8 @@ class TablerIcons {
   static const fire_hydrant_off = _TablerIconsData(0xf5f4, 'fire_hydrant_off');
   static const fire_hydrant = _TablerIconsData(0xf5f5, 'fire_hydrant');
   static const firetruck = _TablerIconsData(0xf5f6, 'firetruck');
-  static const first_aid_kit_off = _TablerIconsData(0xf5f7, 'first_aid_kit_off');
+  static const first_aid_kit_off =
+      _TablerIconsData(0xf5f7, 'first_aid_kit_off');
   static const first_aid_kit = _TablerIconsData(0xf5f8, 'first_aid_kit');
   static const fish_bone = _TablerIconsData(0xf5f9, 'fish_bone');
   static const fish_hook_off = _TablerIconsData(0xf5fa, 'fish_hook_off');
@@ -1358,15 +1568,21 @@ class TablerIcons {
   static const gender_epicene = _TablerIconsData(0xf63a, 'gender_epicene');
   static const gender_female = _TablerIconsData(0xf63b, 'gender_female');
   static const gender_femme = _TablerIconsData(0xf63c, 'gender_femme');
-  static const gender_genderfluid = _TablerIconsData(0xf63d, 'gender_genderfluid');
-  static const gender_genderless = _TablerIconsData(0xf63e, 'gender_genderless');
-  static const gender_genderqueer = _TablerIconsData(0xf63f, 'gender_genderqueer');
-  static const gender_hermaphrodite = _TablerIconsData(0xf640, 'gender_hermaphrodite');
-  static const gender_intergender = _TablerIconsData(0xf641, 'gender_intergender');
+  static const gender_genderfluid =
+      _TablerIconsData(0xf63d, 'gender_genderfluid');
+  static const gender_genderless =
+      _TablerIconsData(0xf63e, 'gender_genderless');
+  static const gender_genderqueer =
+      _TablerIconsData(0xf63f, 'gender_genderqueer');
+  static const gender_hermaphrodite =
+      _TablerIconsData(0xf640, 'gender_hermaphrodite');
+  static const gender_intergender =
+      _TablerIconsData(0xf641, 'gender_intergender');
   static const gender_male = _TablerIconsData(0xf642, 'gender_male');
   static const gender_neutrois = _TablerIconsData(0xf643, 'gender_neutrois');
   static const gender_third = _TablerIconsData(0xf644, 'gender_third');
-  static const gender_transgender = _TablerIconsData(0xf645, 'gender_transgender');
+  static const gender_transgender =
+      _TablerIconsData(0xf645, 'gender_transgender');
   static const gender_trasvesti = _TablerIconsData(0xf646, 'gender_trasvesti');
   static const geometry = _TablerIconsData(0xf647, 'geometry');
   static const ghost_off = _TablerIconsData(0xf648, 'ghost_off');
@@ -1380,8 +1596,10 @@ class TablerIcons {
   static const git_compare = _TablerIconsData(0xf650, 'git_compare');
   static const git_fork = _TablerIconsData(0xf651, 'git_fork');
   static const git_merge = _TablerIconsData(0xf652, 'git_merge');
-  static const git_pull_request_closed = _TablerIconsData(0xf653, 'git_pull_request_closed');
-  static const git_pull_request_draft = _TablerIconsData(0xf654, 'git_pull_request_draft');
+  static const git_pull_request_closed =
+      _TablerIconsData(0xf653, 'git_pull_request_closed');
+  static const git_pull_request_draft =
+      _TablerIconsData(0xf654, 'git_pull_request_draft');
   static const git_pull_request = _TablerIconsData(0xf655, 'git_pull_request');
   static const gizmo = _TablerIconsData(0xf656, 'gizmo');
   static const glass_full = _TablerIconsData(0xf657, 'glass_full');
@@ -1417,14 +1635,17 @@ class TablerIcons {
   static const hand_finger_off = _TablerIconsData(0xf675, 'hand_finger_off');
   static const hand_finger = _TablerIconsData(0xf676, 'hand_finger');
   static const hand_grab = _TablerIconsData(0xf677, 'hand_grab');
-  static const hand_little_finger = _TablerIconsData(0xf678, 'hand_little_finger');
-  static const hand_middle_finger = _TablerIconsData(0xf679, 'hand_middle_finger');
+  static const hand_little_finger =
+      _TablerIconsData(0xf678, 'hand_little_finger');
+  static const hand_middle_finger =
+      _TablerIconsData(0xf679, 'hand_middle_finger');
   static const hand_move = _TablerIconsData(0xf67a, 'hand_move');
   static const hand_off = _TablerIconsData(0xf67b, 'hand_off');
   static const hand_ring_finger = _TablerIconsData(0xf67c, 'hand_ring_finger');
   static const hand_rock = _TablerIconsData(0xf67d, 'hand_rock');
   static const hand_stop = _TablerIconsData(0xf67e, 'hand_stop');
-  static const hand_three_fingers = _TablerIconsData(0xf67f, 'hand_three_fingers');
+  static const hand_three_fingers =
+      _TablerIconsData(0xf67f, 'hand_three_fingers');
   static const hand_two_fingers = _TablerIconsData(0xf680, 'hand_two_fingers');
   static const hanger_2 = _TablerIconsData(0xf681, 'hanger_2');
   static const hanger_off = _TablerIconsData(0xf682, 'hanger_off');
@@ -1437,18 +1658,21 @@ class TablerIcons {
   static const headphones = _TablerIconsData(0xf689, 'headphones');
   static const headset_off = _TablerIconsData(0xf68a, 'headset_off');
   static const headset = _TablerIconsData(0xf68b, 'headset');
-  static const health_recognition = _TablerIconsData(0xf68c, 'health_recognition');
+  static const health_recognition =
+      _TablerIconsData(0xf68c, 'health_recognition');
   static const heart_broken = _TablerIconsData(0xf68d, 'heart_broken');
   static const heart_handshake = _TablerIconsData(0xf68e, 'heart_handshake');
   static const heart_minus = _TablerIconsData(0xf68f, 'heart_minus');
   static const heart_off = _TablerIconsData(0xf690, 'heart_off');
   static const heart_plus = _TablerIconsData(0xf691, 'heart_plus');
-  static const heart_rate_monitor = _TablerIconsData(0xf692, 'heart_rate_monitor');
+  static const heart_rate_monitor =
+      _TablerIconsData(0xf692, 'heart_rate_monitor');
   static const heart = _TablerIconsData(0xf693, 'heart');
   static const heartbeat = _TablerIconsData(0xf694, 'heartbeat');
   static const hearts_off = _TablerIconsData(0xf695, 'hearts_off');
   static const hearts = _TablerIconsData(0xf696, 'hearts');
-  static const helicopter_landing = _TablerIconsData(0xf697, 'helicopter_landing');
+  static const helicopter_landing =
+      _TablerIconsData(0xf697, 'helicopter_landing');
   static const helicopter = _TablerIconsData(0xf698, 'helicopter');
   static const helmet_off = _TablerIconsData(0xf699, 'helmet_off');
   static const helmet = _TablerIconsData(0xf69a, 'helmet');
@@ -1561,7 +1785,8 @@ class TablerIcons {
   static const ironing_2 = _TablerIconsData(0xf705, 'ironing_2');
   static const ironing_3 = _TablerIconsData(0xf706, 'ironing_3');
   static const ironing_off = _TablerIconsData(0xf707, 'ironing_off');
-  static const ironing_steam_off = _TablerIconsData(0xf708, 'ironing_steam_off');
+  static const ironing_steam_off =
+      _TablerIconsData(0xf708, 'ironing_steam_off');
   static const ironing_steam = _TablerIconsData(0xf709, 'ironing_steam');
   static const italic = _TablerIconsData(0xf70a, 'italic');
   static const jewish_star = _TablerIconsData(0xf70b, 'jewish_star');
@@ -1581,52 +1806,73 @@ class TablerIcons {
   static const lamp_2 = _TablerIconsData(0xf719, 'lamp_2');
   static const lamp_off = _TablerIconsData(0xf71a, 'lamp_off');
   static const lamp = _TablerIconsData(0xf71b, 'lamp');
-  static const language_hiragana = _TablerIconsData(0xf71c, 'language_hiragana');
-  static const language_katakana = _TablerIconsData(0xf71d, 'language_katakana');
+  static const language_hiragana =
+      _TablerIconsData(0xf71c, 'language_hiragana');
+  static const language_katakana =
+      _TablerIconsData(0xf71d, 'language_katakana');
   static const language_off = _TablerIconsData(0xf71e, 'language_off');
   static const language = _TablerIconsData(0xf71f, 'language');
   static const lasso_off = _TablerIconsData(0xf720, 'lasso_off');
   static const lasso_polygon = _TablerIconsData(0xf721, 'lasso_polygon');
   static const lasso = _TablerIconsData(0xf722, 'lasso');
-  static const layers_difference = _TablerIconsData(0xf723, 'layers_difference');
-  static const layers_intersect_2 = _TablerIconsData(0xf724, 'layers_intersect_2');
+  static const layers_difference =
+      _TablerIconsData(0xf723, 'layers_difference');
+  static const layers_intersect_2 =
+      _TablerIconsData(0xf724, 'layers_intersect_2');
   static const layers_intersect = _TablerIconsData(0xf725, 'layers_intersect');
   static const layers_linked = _TablerIconsData(0xf726, 'layers_linked');
   static const layers_off = _TablerIconsData(0xf727, 'layers_off');
   static const layers_subtract = _TablerIconsData(0xf728, 'layers_subtract');
   static const layers_union = _TablerIconsData(0xf729, 'layers_union');
   static const layout_2 = _TablerIconsData(0xf72a, 'layout_2');
-  static const layout_align_bottom = _TablerIconsData(0xf72b, 'layout_align_bottom');
-  static const layout_align_center = _TablerIconsData(0xf72c, 'layout_align_center');
-  static const layout_align_left = _TablerIconsData(0xf72d, 'layout_align_left');
-  static const layout_align_middle = _TablerIconsData(0xf72e, 'layout_align_middle');
-  static const layout_align_right = _TablerIconsData(0xf72f, 'layout_align_right');
+  static const layout_align_bottom =
+      _TablerIconsData(0xf72b, 'layout_align_bottom');
+  static const layout_align_center =
+      _TablerIconsData(0xf72c, 'layout_align_center');
+  static const layout_align_left =
+      _TablerIconsData(0xf72d, 'layout_align_left');
+  static const layout_align_middle =
+      _TablerIconsData(0xf72e, 'layout_align_middle');
+  static const layout_align_right =
+      _TablerIconsData(0xf72f, 'layout_align_right');
   static const layout_align_top = _TablerIconsData(0xf730, 'layout_align_top');
-  static const layout_board_split = _TablerIconsData(0xf731, 'layout_board_split');
+  static const layout_board_split =
+      _TablerIconsData(0xf731, 'layout_board_split');
   static const layout_board = _TablerIconsData(0xf732, 'layout_board');
-  static const layout_bottombar_collapse = _TablerIconsData(0xf733, 'layout_bottombar_collapse');
-  static const layout_bottombar_expand = _TablerIconsData(0xf734, 'layout_bottombar_expand');
+  static const layout_bottombar_collapse =
+      _TablerIconsData(0xf733, 'layout_bottombar_collapse');
+  static const layout_bottombar_expand =
+      _TablerIconsData(0xf734, 'layout_bottombar_expand');
   static const layout_bottombar = _TablerIconsData(0xf735, 'layout_bottombar');
   static const layout_cards = _TablerIconsData(0xf736, 'layout_cards');
   static const layout_collage = _TablerIconsData(0xf737, 'layout_collage');
   static const layout_columns = _TablerIconsData(0xf738, 'layout_columns');
   static const layout_dashboard = _TablerIconsData(0xf739, 'layout_dashboard');
-  static const layout_distribute_horizontal = _TablerIconsData(0xf73a, 'layout_distribute_horizontal');
-  static const layout_distribute_vertical = _TablerIconsData(0xf73b, 'layout_distribute_vertical');
+  static const layout_distribute_horizontal =
+      _TablerIconsData(0xf73a, 'layout_distribute_horizontal');
+  static const layout_distribute_vertical =
+      _TablerIconsData(0xf73b, 'layout_distribute_vertical');
   static const layout_grid_add = _TablerIconsData(0xf73c, 'layout_grid_add');
   static const layout_grid = _TablerIconsData(0xf73d, 'layout_grid');
   static const layout_kanban = _TablerIconsData(0xf73e, 'layout_kanban');
   static const layout_list = _TablerIconsData(0xf73f, 'layout_list');
-  static const layout_navbar_collapse = _TablerIconsData(0xf740, 'layout_navbar_collapse');
-  static const layout_navbar_expand = _TablerIconsData(0xf741, 'layout_navbar_expand');
+  static const layout_navbar_collapse =
+      _TablerIconsData(0xf740, 'layout_navbar_collapse');
+  static const layout_navbar_expand =
+      _TablerIconsData(0xf741, 'layout_navbar_expand');
   static const layout_navbar = _TablerIconsData(0xf742, 'layout_navbar');
   static const layout_off = _TablerIconsData(0xf743, 'layout_off');
   static const layout_rows = _TablerIconsData(0xf744, 'layout_rows');
-  static const layout_sidebar_left_collapse = _TablerIconsData(0xf745, 'layout_sidebar_left_collapse');
-  static const layout_sidebar_left_expand = _TablerIconsData(0xf746, 'layout_sidebar_left_expand');
-  static const layout_sidebar_right_collapse = _TablerIconsData(0xf747, 'layout_sidebar_right_collapse');
-  static const layout_sidebar_right_expand = _TablerIconsData(0xf748, 'layout_sidebar_right_expand');
-  static const layout_sidebar_right = _TablerIconsData(0xf749, 'layout_sidebar_right');
+  static const layout_sidebar_left_collapse =
+      _TablerIconsData(0xf745, 'layout_sidebar_left_collapse');
+  static const layout_sidebar_left_expand =
+      _TablerIconsData(0xf746, 'layout_sidebar_left_expand');
+  static const layout_sidebar_right_collapse =
+      _TablerIconsData(0xf747, 'layout_sidebar_right_collapse');
+  static const layout_sidebar_right_expand =
+      _TablerIconsData(0xf748, 'layout_sidebar_right_expand');
+  static const layout_sidebar_right =
+      _TablerIconsData(0xf749, 'layout_sidebar_right');
   static const layout_sidebar = _TablerIconsData(0xf74a, 'layout_sidebar');
   static const layout = _TablerIconsData(0xf74b, 'layout');
   static const leaf_off = _TablerIconsData(0xf74c, 'leaf_off');
@@ -1638,9 +1884,12 @@ class TablerIcons {
   static const letter_a = _TablerIconsData(0xf752, 'letter_a');
   static const letter_b = _TablerIconsData(0xf753, 'letter_b');
   static const letter_c = _TablerIconsData(0xf754, 'letter_c');
-  static const letter_case_lower = _TablerIconsData(0xf755, 'letter_case_lower');
-  static const letter_case_toggle = _TablerIconsData(0xf756, 'letter_case_toggle');
-  static const letter_case_upper = _TablerIconsData(0xf757, 'letter_case_upper');
+  static const letter_case_lower =
+      _TablerIconsData(0xf755, 'letter_case_lower');
+  static const letter_case_toggle =
+      _TablerIconsData(0xf756, 'letter_case_toggle');
+  static const letter_case_upper =
+      _TablerIconsData(0xf757, 'letter_case_upper');
   static const letter_case = _TablerIconsData(0xf758, 'letter_case');
   static const letter_d = _TablerIconsData(0xf759, 'letter_d');
   static const letter_e = _TablerIconsData(0xf75a, 'letter_e');
@@ -1741,11 +1990,13 @@ class TablerIcons {
   static const mars = _TablerIconsData(0xf7b9, 'mars');
   static const mask_off = _TablerIconsData(0xf7ba, 'mask_off');
   static const mask = _TablerIconsData(0xf7bb, 'mask');
-  static const masks_theater_off = _TablerIconsData(0xf7bc, 'masks_theater_off');
+  static const masks_theater_off =
+      _TablerIconsData(0xf7bc, 'masks_theater_off');
   static const masks_theater = _TablerIconsData(0xf7bd, 'masks_theater');
   static const massage = _TablerIconsData(0xf7be, 'massage');
   static const math_avg = _TablerIconsData(0xf7bf, 'math_avg');
-  static const math_function_off = _TablerIconsData(0xf7c0, 'math_function_off');
+  static const math_function_off =
+      _TablerIconsData(0xf7c0, 'math_function_off');
   static const math_function = _TablerIconsData(0xf7c1, 'math_function');
   static const math_max = _TablerIconsData(0xf7c2, 'math_max');
   static const math_min = _TablerIconsData(0xf7c3, 'math_min');
@@ -1758,7 +2009,8 @@ class TablerIcons {
   static const meat = _TablerIconsData(0xf7ca, 'meat');
   static const medal_2 = _TablerIconsData(0xf7cb, 'medal_2');
   static const medal = _TablerIconsData(0xf7cc, 'medal');
-  static const medical_cross_off = _TablerIconsData(0xf7cd, 'medical_cross_off');
+  static const medical_cross_off =
+      _TablerIconsData(0xf7cd, 'medical_cross_off');
   static const medical_cross = _TablerIconsData(0xf7ce, 'medical_cross');
   static const medicine_syrup = _TablerIconsData(0xf7cf, 'medicine_syrup');
   static const menu_2 = _TablerIconsData(0xf7d0, 'menu_2');
@@ -1769,7 +2021,8 @@ class TablerIcons {
   static const message_2 = _TablerIconsData(0xf7d5, 'message_2');
   static const message_chatbot = _TablerIconsData(0xf7d6, 'message_chatbot');
   static const message_circle_2 = _TablerIconsData(0xf7d7, 'message_circle_2');
-  static const message_circle_off = _TablerIconsData(0xf7d8, 'message_circle_off');
+  static const message_circle_off =
+      _TablerIconsData(0xf7d8, 'message_circle_off');
   static const message_circle = _TablerIconsData(0xf7d9, 'message_circle');
   static const message_code = _TablerIconsData(0xf7da, 'message_code');
   static const message_dots = _TablerIconsData(0xf7db, 'message_dots');
@@ -1829,7 +2082,8 @@ class TablerIcons {
   static const mood_smile_dizzy = _TablerIconsData(0xf811, 'mood_smile_dizzy');
   static const mood_smile = _TablerIconsData(0xf812, 'mood_smile');
   static const mood_suprised = _TablerIconsData(0xf813, 'mood_suprised');
-  static const mood_tongue_wink_2 = _TablerIconsData(0xf814, 'mood_tongue_wink_2');
+  static const mood_tongue_wink_2 =
+      _TablerIconsData(0xf814, 'mood_tongue_wink_2');
   static const mood_tongue_wink = _TablerIconsData(0xf815, 'mood_tongue_wink');
   static const mood_tongue = _TablerIconsData(0xf816, 'mood_tongue');
   static const mood_unamused = _TablerIconsData(0xf817, 'mood_unamused');
@@ -1870,7 +2124,8 @@ class TablerIcons {
   static const nfc_off = _TablerIconsData(0xf83a, 'nfc_off');
   static const nfc = _TablerIconsData(0xf83b, 'nfc');
   static const no_copyright = _TablerIconsData(0xf83c, 'no_copyright');
-  static const no_creative_commons = _TablerIconsData(0xf83d, 'no_creative_commons');
+  static const no_creative_commons =
+      _TablerIconsData(0xf83d, 'no_creative_commons');
   static const no_derivatives = _TablerIconsData(0xf83e, 'no_derivatives');
   static const north_star = _TablerIconsData(0xf83f, 'north_star');
   static const note_off = _TablerIconsData(0xf840, 'note_off');
@@ -1916,10 +2171,14 @@ class TablerIcons {
   static const paint = _TablerIconsData(0xf868, 'paint');
   static const palette_off = _TablerIconsData(0xf869, 'palette_off');
   static const palette = _TablerIconsData(0xf86a, 'palette');
-  static const panorama_horizontal_off = _TablerIconsData(0xf86b, 'panorama_horizontal_off');
-  static const panorama_horizontal = _TablerIconsData(0xf86c, 'panorama_horizontal');
-  static const panorama_vertical_off = _TablerIconsData(0xf86d, 'panorama_vertical_off');
-  static const panorama_vertical = _TablerIconsData(0xf86e, 'panorama_vertical');
+  static const panorama_horizontal_off =
+      _TablerIconsData(0xf86b, 'panorama_horizontal_off');
+  static const panorama_horizontal =
+      _TablerIconsData(0xf86c, 'panorama_horizontal');
+  static const panorama_vertical_off =
+      _TablerIconsData(0xf86d, 'panorama_vertical_off');
+  static const panorama_vertical =
+      _TablerIconsData(0xf86e, 'panorama_vertical');
   static const paper_bag_off = _TablerIconsData(0xf86f, 'paper_bag_off');
   static const paper_bag = _TablerIconsData(0xf870, 'paper_bag');
   static const paperclip = _TablerIconsData(0xf871, 'paperclip');
@@ -1971,10 +2230,14 @@ class TablerIcons {
   static const photo_x = _TablerIconsData(0xf89f, 'photo_x');
   static const photo = _TablerIconsData(0xf8a0, 'photo');
   static const physotherapist = _TablerIconsData(0xf8a1, 'physotherapist');
-  static const picture_in_picture_off = _TablerIconsData(0xf8a2, 'picture_in_picture_off');
-  static const picture_in_picture_on = _TablerIconsData(0xf8a3, 'picture_in_picture_on');
-  static const picture_in_picture_top = _TablerIconsData(0xf8a4, 'picture_in_picture_top');
-  static const picture_in_picture = _TablerIconsData(0xf8a5, 'picture_in_picture');
+  static const picture_in_picture_off =
+      _TablerIconsData(0xf8a2, 'picture_in_picture_off');
+  static const picture_in_picture_on =
+      _TablerIconsData(0xf8a3, 'picture_in_picture_on');
+  static const picture_in_picture_top =
+      _TablerIconsData(0xf8a4, 'picture_in_picture_top');
+  static const picture_in_picture =
+      _TablerIconsData(0xf8a5, 'picture_in_picture');
   static const pig_money = _TablerIconsData(0xf8a6, 'pig_money');
   static const pig_off = _TablerIconsData(0xf8a7, 'pig_off');
   static const pig = _TablerIconsData(0xf8a8, 'pig');
@@ -2006,17 +2269,23 @@ class TablerIcons {
   static const player_play = _TablerIconsData(0xf8c2, 'player_play');
   static const player_record = _TablerIconsData(0xf8c3, 'player_record');
   static const player_skip_back = _TablerIconsData(0xf8c4, 'player_skip_back');
-  static const player_skip_forward = _TablerIconsData(0xf8c5, 'player_skip_forward');
+  static const player_skip_forward =
+      _TablerIconsData(0xf8c5, 'player_skip_forward');
   static const player_stop = _TablerIconsData(0xf8c6, 'player_stop');
-  static const player_track_next = _TablerIconsData(0xf8c7, 'player_track_next');
-  static const player_track_prev = _TablerIconsData(0xf8c8, 'player_track_prev');
+  static const player_track_next =
+      _TablerIconsData(0xf8c7, 'player_track_next');
+  static const player_track_prev =
+      _TablerIconsData(0xf8c8, 'player_track_prev');
   static const playlist_add = _TablerIconsData(0xf8c9, 'playlist_add');
   static const playlist_off = _TablerIconsData(0xf8ca, 'playlist_off');
   static const playlist_x = _TablerIconsData(0xf8cb, 'playlist_x');
   static const playlist = _TablerIconsData(0xf8cc, 'playlist');
-  static const playstation_circle = _TablerIconsData(0xf8cd, 'playstation_circle');
-  static const playstation_square = _TablerIconsData(0xf8ce, 'playstation_square');
-  static const playstation_triangle = _TablerIconsData(0xf8cf, 'playstation_triangle');
+  static const playstation_circle =
+      _TablerIconsData(0xf8cd, 'playstation_circle');
+  static const playstation_square =
+      _TablerIconsData(0xf8ce, 'playstation_square');
+  static const playstation_triangle =
+      _TablerIconsData(0xf8cf, 'playstation_triangle');
   static const playstation_x = _TablerIconsData(0xf8d0, 'playstation_x');
   static const plug_connected_x = _TablerIconsData(0xf8d1, 'plug_connected_x');
   static const plug_connected = _TablerIconsData(0xf8d2, 'plug_connected');
@@ -2042,7 +2311,8 @@ class TablerIcons {
   static const pray = _TablerIconsData(0xf8e6, 'pray');
   static const premium_rights = _TablerIconsData(0xf8e7, 'premium_rights');
   static const prescription = _TablerIconsData(0xf8e8, 'prescription');
-  static const presentation_analytics = _TablerIconsData(0xf8e9, 'presentation_analytics');
+  static const presentation_analytics =
+      _TablerIconsData(0xf8e9, 'presentation_analytics');
   static const presentation_off = _TablerIconsData(0xf8ea, 'presentation_off');
   static const presentation = _TablerIconsData(0xf8eb, 'presentation');
   static const printer_off = _TablerIconsData(0xf8ec, 'printer_off');
@@ -2068,8 +2338,10 @@ class TablerIcons {
   static const radio = _TablerIconsData(0xf900, 'radio');
   static const radioactive_off = _TablerIconsData(0xf901, 'radioactive_off');
   static const radioactive = _TablerIconsData(0xf902, 'radioactive');
-  static const radius_bottom_left = _TablerIconsData(0xf903, 'radius_bottom_left');
-  static const radius_bottom_right = _TablerIconsData(0xf904, 'radius_bottom_right');
+  static const radius_bottom_left =
+      _TablerIconsData(0xf903, 'radius_bottom_left');
+  static const radius_bottom_right =
+      _TablerIconsData(0xf904, 'radius_bottom_right');
   static const radius_top_left = _TablerIconsData(0xf905, 'radius_top_left');
   static const radius_top_right = _TablerIconsData(0xf906, 'radius_top_right');
   static const rainbow_off = _TablerIconsData(0xf907, 'rainbow_off');
@@ -2087,7 +2359,8 @@ class TablerIcons {
   static const recharging = _TablerIconsData(0xf913, 'recharging');
   static const record_mail_off = _TablerIconsData(0xf914, 'record_mail_off');
   static const record_mail = _TablerIconsData(0xf915, 'record_mail');
-  static const rectangle_vertical = _TablerIconsData(0xf916, 'rectangle_vertical');
+  static const rectangle_vertical =
+      _TablerIconsData(0xf916, 'rectangle_vertical');
   static const rectangle = _TablerIconsData(0xf917, 'rectangle');
   static const recycle_off = _TablerIconsData(0xf918, 'recycle_off');
   static const recycle = _TablerIconsData(0xf919, 'recycle');
@@ -2098,9 +2371,12 @@ class TablerIcons {
   static const regex_off = _TablerIconsData(0xf91e, 'regex_off');
   static const regex = _TablerIconsData(0xf91f, 'regex');
   static const registered = _TablerIconsData(0xf920, 'registered');
-  static const relation_many_to_many = _TablerIconsData(0xf921, 'relation_many_to_many');
-  static const relation_one_to_many = _TablerIconsData(0xf922, 'relation_one_to_many');
-  static const relation_one_to_one = _TablerIconsData(0xf923, 'relation_one_to_one');
+  static const relation_many_to_many =
+      _TablerIconsData(0xf921, 'relation_many_to_many');
+  static const relation_one_to_many =
+      _TablerIconsData(0xf922, 'relation_one_to_many');
+  static const relation_one_to_one =
+      _TablerIconsData(0xf923, 'relation_one_to_one');
   static const reload = _TablerIconsData(0xf924, 'reload');
   static const repeat_off = _TablerIconsData(0xf925, 'repeat_off');
   static const repeat_once = _TablerIconsData(0xf926, 'repeat_once');
@@ -2124,11 +2400,13 @@ class TablerIcons {
   static const rocket_off = _TablerIconsData(0xf938, 'rocket_off');
   static const rocket = _TablerIconsData(0xf939, 'rocket');
   static const roller_skating = _TablerIconsData(0xf93a, 'roller_skating');
-  static const rollercoaster_off = _TablerIconsData(0xf93b, 'rollercoaster_off');
+  static const rollercoaster_off =
+      _TablerIconsData(0xf93b, 'rollercoaster_off');
   static const rollercoaster = _TablerIconsData(0xf93c, 'rollercoaster');
   static const rotate_2 = _TablerIconsData(0xf93d, 'rotate_2');
   static const rotate_360 = _TablerIconsData(0xf93e, 'rotate_360');
-  static const rotate_clockwise_2 = _TablerIconsData(0xf93f, 'rotate_clockwise_2');
+  static const rotate_clockwise_2 =
+      _TablerIconsData(0xf93f, 'rotate_clockwise_2');
   static const rotate_clockwise = _TablerIconsData(0xf940, 'rotate_clockwise');
   static const rotate_dot = _TablerIconsData(0xf941, 'rotate_dot');
   static const rotate_rectangle = _TablerIconsData(0xf942, 'rotate_rectangle');
@@ -2137,7 +2415,8 @@ class TablerIcons {
   static const route = _TablerIconsData(0xf945, 'route');
   static const router_off = _TablerIconsData(0xf946, 'router_off');
   static const router = _TablerIconsData(0xf947, 'router');
-  static const row_insert_bottom = _TablerIconsData(0xf948, 'row_insert_bottom');
+  static const row_insert_bottom =
+      _TablerIconsData(0xf948, 'row_insert_bottom');
   static const row_insert_top = _TablerIconsData(0xf949, 'row_insert_top');
   static const rss = _TablerIconsData(0xf94a, 'rss');
   static const ruler_2_off = _TablerIconsData(0xf94b, 'ruler_2_off');
@@ -2154,7 +2433,8 @@ class TablerIcons {
   static const satellite = _TablerIconsData(0xf956, 'satellite');
   static const sausage = _TablerIconsData(0xf957, 'sausage');
   static const scale_off = _TablerIconsData(0xf958, 'scale_off');
-  static const scale_outline_off = _TablerIconsData(0xf959, 'scale_outline_off');
+  static const scale_outline_off =
+      _TablerIconsData(0xf959, 'scale_outline_off');
   static const scale_outline = _TablerIconsData(0xf95a, 'scale_outline');
   static const scale = _TablerIconsData(0xf95b, 'scale');
   static const scan_eye = _TablerIconsData(0xf95c, 'scan_eye');
@@ -2190,8 +2470,10 @@ class TablerIcons {
   static const send_off = _TablerIconsData(0xf97a, 'send_off');
   static const send = _TablerIconsData(0xf97b, 'send');
   static const seo = _TablerIconsData(0xf97c, 'seo');
-  static const separator_horizontal = _TablerIconsData(0xf97d, 'separator_horizontal');
-  static const separator_vertical = _TablerIconsData(0xf97e, 'separator_vertical');
+  static const separator_horizontal =
+      _TablerIconsData(0xf97d, 'separator_horizontal');
+  static const separator_vertical =
+      _TablerIconsData(0xf97e, 'separator_vertical');
   static const separator = _TablerIconsData(0xf97f, 'separator');
   static const server_2 = _TablerIconsData(0xf980, 'server_2');
   static const server_bolt = _TablerIconsData(0xf981, 'server_bolt');
@@ -2199,7 +2481,8 @@ class TablerIcons {
   static const server_off = _TablerIconsData(0xf983, 'server_off');
   static const server = _TablerIconsData(0xf984, 'server');
   static const servicemark = _TablerIconsData(0xf985, 'servicemark');
-  static const settings_automation = _TablerIconsData(0xf986, 'settings_automation');
+  static const settings_automation =
+      _TablerIconsData(0xf986, 'settings_automation');
   static const settings_off = _TablerIconsData(0xf987, 'settings_off');
   static const settings = _TablerIconsData(0xf988, 'settings');
   static const shadow_off = _TablerIconsData(0xf989, 'shadow_off');
@@ -2213,7 +2496,8 @@ class TablerIcons {
   static const shield_check = _TablerIconsData(0xf991, 'shield_check');
   static const shield_checkered = _TablerIconsData(0xf992, 'shield_checkered');
   static const shield_chevron = _TablerIconsData(0xf993, 'shield_chevron');
-  static const shield_half_filled = _TablerIconsData(0xf994, 'shield_half_filled');
+  static const shield_half_filled =
+      _TablerIconsData(0xf994, 'shield_half_filled');
   static const shield_half = _TablerIconsData(0xf995, 'shield_half');
   static const shield_lock = _TablerIconsData(0xf996, 'shield_lock');
   static const shield_off = _TablerIconsData(0xf997, 'shield_off');
@@ -2226,9 +2510,12 @@ class TablerIcons {
   static const shirt = _TablerIconsData(0xf99e, 'shirt');
   static const shoe_off = _TablerIconsData(0xf99f, 'shoe_off');
   static const shoe = _TablerIconsData(0xf9a0, 'shoe');
-  static const shopping_cart_discount = _TablerIconsData(0xf9a1, 'shopping_cart_discount');
-  static const shopping_cart_off = _TablerIconsData(0xf9a2, 'shopping_cart_off');
-  static const shopping_cart_plus = _TablerIconsData(0xf9a3, 'shopping_cart_plus');
+  static const shopping_cart_discount =
+      _TablerIconsData(0xf9a1, 'shopping_cart_discount');
+  static const shopping_cart_off =
+      _TablerIconsData(0xf9a2, 'shopping_cart_off');
+  static const shopping_cart_plus =
+      _TablerIconsData(0xf9a3, 'shopping_cart_plus');
   static const shopping_cart_x = _TablerIconsData(0xf9a4, 'shopping_cart_x');
   static const shopping_cart = _TablerIconsData(0xf9a5, 'shopping_cart');
   static const shovel = _TablerIconsData(0xf9a6, 'shovel');
@@ -2263,19 +2550,25 @@ class TablerIcons {
   static const sofa_off = _TablerIconsData(0xf9c3, 'sofa_off');
   static const sofa = _TablerIconsData(0xf9c4, 'sofa');
   static const sort_ascending_2 = _TablerIconsData(0xf9c5, 'sort_ascending_2');
-  static const sort_ascending_letters = _TablerIconsData(0xf9c6, 'sort_ascending_letters');
-  static const sort_ascending_numbers = _TablerIconsData(0xf9c7, 'sort_ascending_numbers');
+  static const sort_ascending_letters =
+      _TablerIconsData(0xf9c6, 'sort_ascending_letters');
+  static const sort_ascending_numbers =
+      _TablerIconsData(0xf9c7, 'sort_ascending_numbers');
   static const sort_ascending = _TablerIconsData(0xf9c8, 'sort_ascending');
-  static const sort_descending_2 = _TablerIconsData(0xf9c9, 'sort_descending_2');
-  static const sort_descending_letters = _TablerIconsData(0xf9ca, 'sort_descending_letters');
-  static const sort_descending_numbers = _TablerIconsData(0xf9cb, 'sort_descending_numbers');
+  static const sort_descending_2 =
+      _TablerIconsData(0xf9c9, 'sort_descending_2');
+  static const sort_descending_letters =
+      _TablerIconsData(0xf9ca, 'sort_descending_letters');
+  static const sort_descending_numbers =
+      _TablerIconsData(0xf9cb, 'sort_descending_numbers');
   static const sort_descending = _TablerIconsData(0xf9cc, 'sort_descending');
   static const sos = _TablerIconsData(0xf9cd, 'sos');
   static const soup_off = _TablerIconsData(0xf9ce, 'soup_off');
   static const soup = _TablerIconsData(0xf9cf, 'soup');
   static const space_off = _TablerIconsData(0xf9d0, 'space_off');
   static const space = _TablerIconsData(0xf9d1, 'space');
-  static const spacing_horizontal = _TablerIconsData(0xf9d2, 'spacing_horizontal');
+  static const spacing_horizontal =
+      _TablerIconsData(0xf9d2, 'spacing_horizontal');
   static const spacing_vertical = _TablerIconsData(0xf9d3, 'spacing_vertical');
   static const spade = _TablerIconsData(0xf9d4, 'spade');
   static const speakerphone = _TablerIconsData(0xf9d5, 'speakerphone');
@@ -2325,13 +2618,17 @@ class TablerIcons {
   static const square_r = _TablerIconsData(0xfa01, 'square_r');
   static const square_root_2 = _TablerIconsData(0xfa02, 'square_root_2');
   static const square_root = _TablerIconsData(0xfa03, 'square_root');
-  static const square_rotated_forbid_2 = _TablerIconsData(0xfa04, 'square_rotated_forbid_2');
-  static const square_rotated_forbid = _TablerIconsData(0xfa05, 'square_rotated_forbid');
-  static const square_rotated_off = _TablerIconsData(0xfa06, 'square_rotated_off');
+  static const square_rotated_forbid_2 =
+      _TablerIconsData(0xfa04, 'square_rotated_forbid_2');
+  static const square_rotated_forbid =
+      _TablerIconsData(0xfa05, 'square_rotated_forbid');
+  static const square_rotated_off =
+      _TablerIconsData(0xfa06, 'square_rotated_off');
   static const square_rotated = _TablerIconsData(0xfa07, 'square_rotated');
   static const square_s = _TablerIconsData(0xfa08, 'square_s');
   static const square_t = _TablerIconsData(0xfa09, 'square_t');
-  static const square_toggle_horizontal = _TablerIconsData(0xfa0a, 'square_toggle_horizontal');
+  static const square_toggle_horizontal =
+      _TablerIconsData(0xfa0a, 'square_toggle_horizontal');
   static const square_toggle = _TablerIconsData(0xfa0b, 'square_toggle');
   static const square_u = _TablerIconsData(0xfa0c, 'square_u');
   static const square_w = _TablerIconsData(0xfa0d, 'square_w');
@@ -2356,7 +2653,8 @@ class TablerIcons {
   static const stars = _TablerIconsData(0xfa20, 'stars');
   static const status_change = _TablerIconsData(0xfa21, 'status_change');
   static const steam = _TablerIconsData(0xfa22, 'steam');
-  static const steering_wheel_off = _TablerIconsData(0xfa23, 'steering_wheel_off');
+  static const steering_wheel_off =
+      _TablerIconsData(0xfa23, 'steering_wheel_off');
   static const steering_wheel = _TablerIconsData(0xfa24, 'steering_wheel');
   static const step_into = _TablerIconsData(0xfa25, 'step_into');
   static const step_out = _TablerIconsData(0xfa26, 'step_out');
@@ -2386,9 +2684,10 @@ class TablerIcons {
   static const swimming = _TablerIconsData(0xfa3e, 'swimming');
   static const switch_2 = _TablerIconsData(0xfa3f, 'switch_2');
   static const switch_3 = _TablerIconsData(0xfa40, 'switch_3');
-  static const switch_horizontal = _TablerIconsData(0xfa41, 'switch_horizontal');
+  static const switch_horizontal =
+      _TablerIconsData(0xfa41, 'switch_horizontal');
   static const switch_vertical = _TablerIconsData(0xfa42, 'switch_vertical');
-  static const switch = _TablerIconsData(0xfa43, 'switch');
+  static const switch_ = _TablerIconsData(0xfa43, 'switch');
   static const sword_off = _TablerIconsData(0xfa44, 'sword_off');
   static const sword = _TablerIconsData(0xfa45, 'sword');
   static const swords = _TablerIconsData(0xfa46, 'swords');
@@ -2413,9 +2712,12 @@ class TablerIcons {
   static const target = _TablerIconsData(0xfa59, 'target');
   static const telescope_off = _TablerIconsData(0xfa5a, 'telescope_off');
   static const telescope = _TablerIconsData(0xfa5b, 'telescope');
-  static const temperature_celsius = _TablerIconsData(0xfa5c, 'temperature_celsius');
-  static const temperature_fahrenheit = _TablerIconsData(0xfa5d, 'temperature_fahrenheit');
-  static const temperature_minus = _TablerIconsData(0xfa5e, 'temperature_minus');
+  static const temperature_celsius =
+      _TablerIconsData(0xfa5c, 'temperature_celsius');
+  static const temperature_fahrenheit =
+      _TablerIconsData(0xfa5d, 'temperature_fahrenheit');
+  static const temperature_minus =
+      _TablerIconsData(0xfa5e, 'temperature_minus');
   static const temperature_off = _TablerIconsData(0xfa5f, 'temperature_off');
   static const temperature_plus = _TablerIconsData(0xfa60, 'temperature_plus');
   static const temperature = _TablerIconsData(0xfa61, 'temperature');
@@ -2430,8 +2732,10 @@ class TablerIcons {
   static const test_pipe = _TablerIconsData(0xfa6a, 'test_pipe');
   static const text_color = _TablerIconsData(0xfa6b, 'text_color');
   static const text_decrease = _TablerIconsData(0xfa6c, 'text_decrease');
-  static const text_direction_ltr = _TablerIconsData(0xfa6d, 'text_direction_ltr');
-  static const text_direction_rtl = _TablerIconsData(0xfa6e, 'text_direction_rtl');
+  static const text_direction_ltr =
+      _TablerIconsData(0xfa6d, 'text_direction_ltr');
+  static const text_direction_rtl =
+      _TablerIconsData(0xfa6e, 'text_direction_rtl');
   static const text_increase = _TablerIconsData(0xfa6f, 'text_increase');
   static const text_orientation = _TablerIconsData(0xfa70, 'text_orientation');
   static const text_plus = _TablerIconsData(0xfa71, 'text_plus');
@@ -2439,7 +2743,8 @@ class TablerIcons {
   static const text_resize = _TablerIconsData(0xfa73, 'text_resize');
   static const text_size = _TablerIconsData(0xfa74, 'text_size');
   static const text_spellcheck = _TablerIconsData(0xfa75, 'text_spellcheck');
-  static const text_wrap_disabled = _TablerIconsData(0xfa76, 'text_wrap_disabled');
+  static const text_wrap_disabled =
+      _TablerIconsData(0xfa76, 'text_wrap_disabled');
   static const text_wrap = _TablerIconsData(0xfa77, 'text_wrap');
   static const thermometer = _TablerIconsData(0xfa78, 'thermometer');
   static const thumb_down_off = _TablerIconsData(0xfa79, 'thumb_down_off');
@@ -2458,9 +2763,11 @@ class TablerIcons {
   static const toilet_paper_off = _TablerIconsData(0xfa86, 'toilet_paper_off');
   static const toilet_paper = _TablerIconsData(0xfa87, 'toilet_paper');
   static const tool = _TablerIconsData(0xfa88, 'tool');
-  static const tools_kitchen_2_off = _TablerIconsData(0xfa89, 'tools_kitchen_2_off');
+  static const tools_kitchen_2_off =
+      _TablerIconsData(0xfa89, 'tools_kitchen_2_off');
   static const tools_kitchen_2 = _TablerIconsData(0xfa8a, 'tools_kitchen_2');
-  static const tools_kitchen_off = _TablerIconsData(0xfa8b, 'tools_kitchen_off');
+  static const tools_kitchen_off =
+      _TablerIconsData(0xfa8b, 'tools_kitchen_off');
   static const tools_kitchen = _TablerIconsData(0xfa8c, 'tools_kitchen');
   static const tools_off = _TablerIconsData(0xfa8d, 'tools_off');
   static const tools = _TablerIconsData(0xfa8e, 'tools');
@@ -2474,13 +2781,15 @@ class TablerIcons {
   static const trademark = _TablerIconsData(0xfa96, 'trademark');
   static const traffic_cone_off = _TablerIconsData(0xfa97, 'traffic_cone_off');
   static const traffic_cone = _TablerIconsData(0xfa98, 'traffic_cone');
-  static const traffic_lights_off = _TablerIconsData(0xfa99, 'traffic_lights_off');
+  static const traffic_lights_off =
+      _TablerIconsData(0xfa99, 'traffic_lights_off');
   static const traffic_lights = _TablerIconsData(0xfa9a, 'traffic_lights');
   static const train = _TablerIconsData(0xfa9b, 'train');
   static const transfer_in = _TablerIconsData(0xfa9c, 'transfer_in');
   static const transfer_out = _TablerIconsData(0xfa9d, 'transfer_out');
   static const transform = _TablerIconsData(0xfa9e, 'transform');
-  static const transition_bottom = _TablerIconsData(0xfa9f, 'transition_bottom');
+  static const transition_bottom =
+      _TablerIconsData(0xfa9f, 'transition_bottom');
   static const transition_left = _TablerIconsData(0xfaa0, 'transition_left');
   static const transition_right = _TablerIconsData(0xfaa1, 'transition_right');
   static const transition_top = _TablerIconsData(0xfaa2, 'transition_top');
@@ -2495,9 +2804,11 @@ class TablerIcons {
   static const trending_up_2 = _TablerIconsData(0xfaab, 'trending_up_2');
   static const trending_up_3 = _TablerIconsData(0xfaac, 'trending_up_3');
   static const trending_up = _TablerIconsData(0xfaad, 'trending_up');
-  static const triangle_inverted = _TablerIconsData(0xfaae, 'triangle_inverted');
+  static const triangle_inverted =
+      _TablerIconsData(0xfaae, 'triangle_inverted');
   static const triangle_off = _TablerIconsData(0xfaaf, 'triangle_off');
-  static const triangle_square_circle = _TablerIconsData(0xfab0, 'triangle_square_circle');
+  static const triangle_square_circle =
+      _TablerIconsData(0xfab0, 'triangle_square_circle');
   static const triangle = _TablerIconsData(0xfab1, 'triangle');
   static const triangles = _TablerIconsData(0xfab2, 'triangles');
   static const trident = _TablerIconsData(0xfab3, 'trident');
@@ -2533,7 +2844,8 @@ class TablerIcons {
   static const users = _TablerIconsData(0xfad1, 'users');
   static const uv_index = _TablerIconsData(0xfad2, 'uv_index');
   static const ux_circle = _TablerIconsData(0xfad3, 'ux_circle');
-  static const vaccine_bottle_off = _TablerIconsData(0xfad4, 'vaccine_bottle_off');
+  static const vaccine_bottle_off =
+      _TablerIconsData(0xfad4, 'vaccine_bottle_off');
   static const vaccine_bottle = _TablerIconsData(0xfad5, 'vaccine_bottle');
   static const vaccine_off = _TablerIconsData(0xfad6, 'vaccine_off');
   static const vaccine = _TablerIconsData(0xfad7, 'vaccine');
@@ -2544,7 +2856,8 @@ class TablerIcons {
   static const vector_bezier_2 = _TablerIconsData(0xfadc, 'vector_bezier_2');
   static const vector_bezier = _TablerIconsData(0xfadd, 'vector_bezier');
   static const vector_off = _TablerIconsData(0xfade, 'vector_off');
-  static const vector_triangle_off = _TablerIconsData(0xfadf, 'vector_triangle_off');
+  static const vector_triangle_off =
+      _TablerIconsData(0xfadf, 'vector_triangle_off');
   static const vector_triangle = _TablerIconsData(0xfae0, 'vector_triangle');
   static const vector = _TablerIconsData(0xfae1, 'vector');
   static const venus = _TablerIconsData(0xfae2, 'venus');
@@ -2593,18 +2906,25 @@ class TablerIcons {
   static const wash_dry_shade = _TablerIconsData(0xfb0d, 'wash_dry_shade');
   static const wash_dry_w = _TablerIconsData(0xfb0e, 'wash_dry_w');
   static const wash_dry = _TablerIconsData(0xfb0f, 'wash_dry');
-  static const wash_dryclean_off = _TablerIconsData(0xfb10, 'wash_dryclean_off');
+  static const wash_dryclean_off =
+      _TablerIconsData(0xfb10, 'wash_dryclean_off');
   static const wash_dryclean = _TablerIconsData(0xfb11, 'wash_dryclean');
   static const wash_gentle = _TablerIconsData(0xfb12, 'wash_gentle');
   static const wash_machine = _TablerIconsData(0xfb13, 'wash_machine');
   static const wash_off = _TablerIconsData(0xfb14, 'wash_off');
   static const wash_press = _TablerIconsData(0xfb15, 'wash_press');
-  static const wash_temperature_1 = _TablerIconsData(0xfb16, 'wash_temperature_1');
-  static const wash_temperature_2 = _TablerIconsData(0xfb17, 'wash_temperature_2');
-  static const wash_temperature_3 = _TablerIconsData(0xfb18, 'wash_temperature_3');
-  static const wash_temperature_4 = _TablerIconsData(0xfb19, 'wash_temperature_4');
-  static const wash_temperature_5 = _TablerIconsData(0xfb1a, 'wash_temperature_5');
-  static const wash_temperature_6 = _TablerIconsData(0xfb1b, 'wash_temperature_6');
+  static const wash_temperature_1 =
+      _TablerIconsData(0xfb16, 'wash_temperature_1');
+  static const wash_temperature_2 =
+      _TablerIconsData(0xfb17, 'wash_temperature_2');
+  static const wash_temperature_3 =
+      _TablerIconsData(0xfb18, 'wash_temperature_3');
+  static const wash_temperature_4 =
+      _TablerIconsData(0xfb19, 'wash_temperature_4');
+  static const wash_temperature_5 =
+      _TablerIconsData(0xfb1a, 'wash_temperature_5');
+  static const wash_temperature_6 =
+      _TablerIconsData(0xfb1b, 'wash_temperature_6');
   static const wash_tumble_dry = _TablerIconsData(0xfb1c, 'wash_tumble_dry');
   static const wash_tumble_off = _TablerIconsData(0xfb1d, 'wash_tumble_off');
   static const wash = _TablerIconsData(0xfb1e, 'wash');
@@ -2663,7 +2983,8 @@ class TablerIcons {
   static const zodiac_leo = _TablerIconsData(0xfb53, 'zodiac_leo');
   static const zodiac_libra = _TablerIconsData(0xfb54, 'zodiac_libra');
   static const zodiac_pisces = _TablerIconsData(0xfb55, 'zodiac_pisces');
-  static const zodiac_sagittarius = _TablerIconsData(0xfb56, 'zodiac_sagittarius');
+  static const zodiac_sagittarius =
+      _TablerIconsData(0xfb56, 'zodiac_sagittarius');
   static const zodiac_scorpio = _TablerIconsData(0xfb57, 'zodiac_scorpio');
   static const zodiac_taurus = _TablerIconsData(0xfb58, 'zodiac_taurus');
   static const zodiac_virgo = _TablerIconsData(0xfb59, 'zodiac_virgo');
@@ -2684,10 +3005,10 @@ class TablerIcons {
   static const zzz = _TablerIconsData(0xfb68, 'zzz');
 
   static const all = <String, _TablerIconsData>{
-    '2fa': 2fa,
-    '3d_cube_sphere_off': 3d_cube_sphere_off,
-    '3d_cube_sphere': 3d_cube_sphere,
-    '3d_rotate': 3d_rotate,
+    '2fa': twofa,
+    '3d_cube_sphere_off': threed_cube_sphere_off,
+    '3d_cube_sphere': threed_cube_sphere,
+    '3d_rotate': threed_rotate,
     'a_b_2': a_b_2,
     'a_b_off': a_b_off,
     'a_b': a_b,
@@ -5054,7 +5375,7 @@ class TablerIcons {
     'switch_3': switch_3,
     'switch_horizontal': switch_horizontal,
     'switch_vertical': switch_vertical,
-    'switch': switch,
+    'switch': switch_,
     'sword_off': sword_off,
     'sword': sword,
     'swords': swords,
